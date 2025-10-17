@@ -1,0 +1,399 @@
+### YamlMime:XRefMap
+sorted: true
+references:
+- uid: SharpDialogs
+  name: SharpDialogs
+  href: api/SharpDialogs.html
+  commentId: N:SharpDialogs
+  fullName: SharpDialogs
+  nameWithType: SharpDialogs
+- uid: SharpDialogs.SharpDialogFilter
+  name: SharpDialogFilter
+  href: api/SharpDialogs.SharpDialogFilter.html
+  commentId: T:SharpDialogs.SharpDialogFilter
+  fullName: SharpDialogs.SharpDialogFilter
+  nameWithType: SharpDialogFilter
+- uid: SharpDialogs.SharpDialogFilter.#ctor(System.String,System.Collections.Generic.IEnumerable{System.String})
+  name: SharpDialogFilter(string, IEnumerable<string>)
+  href: api/SharpDialogs.SharpDialogFilter.html#SharpDialogs_SharpDialogFilter__ctor_System_String_System_Collections_Generic_IEnumerable_System_String__
+  commentId: M:SharpDialogs.SharpDialogFilter.#ctor(System.String,System.Collections.Generic.IEnumerable{System.String})
+  name.vb: New(String, IEnumerable(Of String))
+  fullName: SharpDialogs.SharpDialogFilter.SharpDialogFilter(string, System.Collections.Generic.IEnumerable<string>)
+  fullName.vb: SharpDialogs.SharpDialogFilter.New(String, System.Collections.Generic.IEnumerable(Of String))
+  nameWithType: SharpDialogFilter.SharpDialogFilter(string, IEnumerable<string>)
+  nameWithType.vb: SharpDialogFilter.New(String, IEnumerable(Of String))
+- uid: SharpDialogs.SharpDialogFilter.#ctor(System.String,System.String[])
+  name: SharpDialogFilter(string, params string[])
+  href: api/SharpDialogs.SharpDialogFilter.html#SharpDialogs_SharpDialogFilter__ctor_System_String_System_String___
+  commentId: M:SharpDialogs.SharpDialogFilter.#ctor(System.String,System.String[])
+  name.vb: New(String, ParamArray String())
+  fullName: SharpDialogs.SharpDialogFilter.SharpDialogFilter(string, params string[])
+  fullName.vb: SharpDialogs.SharpDialogFilter.New(String, ParamArray String())
+  nameWithType: SharpDialogFilter.SharpDialogFilter(string, params string[])
+  nameWithType.vb: SharpDialogFilter.New(String, ParamArray String())
+- uid: SharpDialogs.SharpDialogFilter.#ctor*
+  name: SharpDialogFilter
+  href: api/SharpDialogs.SharpDialogFilter.html#SharpDialogs_SharpDialogFilter__ctor_
+  commentId: Overload:SharpDialogs.SharpDialogFilter.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: SharpDialogs.SharpDialogFilter.SharpDialogFilter
+  fullName.vb: SharpDialogs.SharpDialogFilter.New
+  nameWithType: SharpDialogFilter.SharpDialogFilter
+  nameWithType.vb: SharpDialogFilter.New
+- uid: SharpDialogs.SharpDialogFilter.Extensions
+  name: Extensions
+  href: api/SharpDialogs.SharpDialogFilter.html#SharpDialogs_SharpDialogFilter_Extensions
+  commentId: P:SharpDialogs.SharpDialogFilter.Extensions
+  fullName: SharpDialogs.SharpDialogFilter.Extensions
+  nameWithType: SharpDialogFilter.Extensions
+- uid: SharpDialogs.SharpDialogFilter.Extensions*
+  name: Extensions
+  href: api/SharpDialogs.SharpDialogFilter.html#SharpDialogs_SharpDialogFilter_Extensions_
+  commentId: Overload:SharpDialogs.SharpDialogFilter.Extensions
+  isSpec: "True"
+  fullName: SharpDialogs.SharpDialogFilter.Extensions
+  nameWithType: SharpDialogFilter.Extensions
+- uid: SharpDialogs.SharpDialogFilter.Name
+  name: Name
+  href: api/SharpDialogs.SharpDialogFilter.html#SharpDialogs_SharpDialogFilter_Name
+  commentId: P:SharpDialogs.SharpDialogFilter.Name
+  fullName: SharpDialogs.SharpDialogFilter.Name
+  nameWithType: SharpDialogFilter.Name
+- uid: SharpDialogs.SharpDialogFilter.Name*
+  name: Name
+  href: api/SharpDialogs.SharpDialogFilter.html#SharpDialogs_SharpDialogFilter_Name_
+  commentId: Overload:SharpDialogs.SharpDialogFilter.Name
+  isSpec: "True"
+  fullName: SharpDialogs.SharpDialogFilter.Name
+  nameWithType: SharpDialogFilter.Name
+- uid: SharpDialogs.SharpDialogFilter.ParseWindowsFilter(System.String)
+  name: ParseWindowsFilter(string)
+  href: api/SharpDialogs.SharpDialogFilter.html#SharpDialogs_SharpDialogFilter_ParseWindowsFilter_System_String_
+  commentId: M:SharpDialogs.SharpDialogFilter.ParseWindowsFilter(System.String)
+  name.vb: ParseWindowsFilter(String)
+  fullName: SharpDialogs.SharpDialogFilter.ParseWindowsFilter(string)
+  fullName.vb: SharpDialogs.SharpDialogFilter.ParseWindowsFilter(String)
+  nameWithType: SharpDialogFilter.ParseWindowsFilter(string)
+  nameWithType.vb: SharpDialogFilter.ParseWindowsFilter(String)
+- uid: SharpDialogs.SharpDialogFilter.ParseWindowsFilter*
+  name: ParseWindowsFilter
+  href: api/SharpDialogs.SharpDialogFilter.html#SharpDialogs_SharpDialogFilter_ParseWindowsFilter_
+  commentId: Overload:SharpDialogs.SharpDialogFilter.ParseWindowsFilter
+  isSpec: "True"
+  fullName: SharpDialogs.SharpDialogFilter.ParseWindowsFilter
+  nameWithType: SharpDialogFilter.ParseWindowsFilter
+- uid: SharpDialogs.SharpDialogFilter.ToString
+  name: ToString()
+  href: api/SharpDialogs.SharpDialogFilter.html#SharpDialogs_SharpDialogFilter_ToString
+  commentId: M:SharpDialogs.SharpDialogFilter.ToString
+  fullName: SharpDialogs.SharpDialogFilter.ToString()
+  nameWithType: SharpDialogFilter.ToString()
+- uid: SharpDialogs.SharpDialogFilter.ToString*
+  name: ToString
+  href: api/SharpDialogs.SharpDialogFilter.html#SharpDialogs_SharpDialogFilter_ToString_
+  commentId: Overload:SharpDialogs.SharpDialogFilter.ToString
+  isSpec: "True"
+  fullName: SharpDialogs.SharpDialogFilter.ToString
+  nameWithType: SharpDialogFilter.ToString
+- uid: SharpDialogs.SharpDialogHelpers
+  name: SharpDialogHelpers
+  href: api/SharpDialogs.SharpDialogHelpers.html
+  commentId: T:SharpDialogs.SharpDialogHelpers
+  fullName: SharpDialogs.SharpDialogHelpers
+  nameWithType: SharpDialogHelpers
+- uid: SharpDialogs.SharpDialogHelpers.CompactPath(System.String,System.Int32)
+  name: CompactPath(string, int)
+  href: api/SharpDialogs.SharpDialogHelpers.html#SharpDialogs_SharpDialogHelpers_CompactPath_System_String_System_Int32_
+  commentId: M:SharpDialogs.SharpDialogHelpers.CompactPath(System.String,System.Int32)
+  name.vb: CompactPath(String, Integer)
+  fullName: SharpDialogs.SharpDialogHelpers.CompactPath(string, int)
+  fullName.vb: SharpDialogs.SharpDialogHelpers.CompactPath(String, Integer)
+  nameWithType: SharpDialogHelpers.CompactPath(string, int)
+  nameWithType.vb: SharpDialogHelpers.CompactPath(String, Integer)
+- uid: SharpDialogs.SharpDialogHelpers.CompactPath*
+  name: CompactPath
+  href: api/SharpDialogs.SharpDialogHelpers.html#SharpDialogs_SharpDialogHelpers_CompactPath_
+  commentId: Overload:SharpDialogs.SharpDialogHelpers.CompactPath
+  isSpec: "True"
+  fullName: SharpDialogs.SharpDialogHelpers.CompactPath
+  nameWithType: SharpDialogHelpers.CompactPath
+- uid: SharpDialogs.SharpDialogHelpers.GetByteSizeString(System.Int64)
+  name: GetByteSizeString(long)
+  href: api/SharpDialogs.SharpDialogHelpers.html#SharpDialogs_SharpDialogHelpers_GetByteSizeString_System_Int64_
+  commentId: M:SharpDialogs.SharpDialogHelpers.GetByteSizeString(System.Int64)
+  name.vb: GetByteSizeString(Long)
+  fullName: SharpDialogs.SharpDialogHelpers.GetByteSizeString(long)
+  fullName.vb: SharpDialogs.SharpDialogHelpers.GetByteSizeString(Long)
+  nameWithType: SharpDialogHelpers.GetByteSizeString(long)
+  nameWithType.vb: SharpDialogHelpers.GetByteSizeString(Long)
+- uid: SharpDialogs.SharpDialogHelpers.GetByteSizeString*
+  name: GetByteSizeString
+  href: api/SharpDialogs.SharpDialogHelpers.html#SharpDialogs_SharpDialogHelpers_GetByteSizeString_
+  commentId: Overload:SharpDialogs.SharpDialogHelpers.GetByteSizeString
+  isSpec: "True"
+  fullName: SharpDialogs.SharpDialogHelpers.GetByteSizeString
+  nameWithType: SharpDialogHelpers.GetByteSizeString
+- uid: SharpDialogs.SharpFileOpenDialog
+  name: SharpFileOpenDialog
+  href: api/SharpDialogs.SharpFileOpenDialog.html
+  commentId: T:SharpDialogs.SharpFileOpenDialog
+  fullName: SharpDialogs.SharpFileOpenDialog
+  nameWithType: SharpFileOpenDialog
+- uid: SharpDialogs.SharpFileOpenDialog.ShowMultiSelect(System.IntPtr,System.String,System.String,System.String,System.Collections.Generic.IReadOnlyCollection{SharpDialogs.SharpDialogFilter},System.Int32)
+  name: ShowMultiSelect(nint, string?, string?, string?, IReadOnlyCollection<SharpDialogFilter>?, int)
+  href: api/SharpDialogs.SharpFileOpenDialog.html#SharpDialogs_SharpFileOpenDialog_ShowMultiSelect_System_IntPtr_System_String_System_String_System_String_System_Collections_Generic_IReadOnlyCollection_SharpDialogs_SharpDialogFilter__System_Int32_
+  commentId: M:SharpDialogs.SharpFileOpenDialog.ShowMultiSelect(System.IntPtr,System.String,System.String,System.String,System.Collections.Generic.IReadOnlyCollection{SharpDialogs.SharpDialogFilter},System.Int32)
+  name.vb: ShowMultiSelect(IntPtr, String, String, String, IReadOnlyCollection(Of SharpDialogFilter), Integer)
+  fullName: SharpDialogs.SharpFileOpenDialog.ShowMultiSelect(nint, string?, string?, string?, System.Collections.Generic.IReadOnlyCollection<SharpDialogs.SharpDialogFilter>?, int)
+  fullName.vb: SharpDialogs.SharpFileOpenDialog.ShowMultiSelect(System.IntPtr, String, String, String, System.Collections.Generic.IReadOnlyCollection(Of SharpDialogs.SharpDialogFilter), Integer)
+  nameWithType: SharpFileOpenDialog.ShowMultiSelect(nint, string?, string?, string?, IReadOnlyCollection<SharpDialogFilter>?, int)
+  nameWithType.vb: SharpFileOpenDialog.ShowMultiSelect(IntPtr, String, String, String, IReadOnlyCollection(Of SharpDialogFilter), Integer)
+- uid: SharpDialogs.SharpFileOpenDialog.ShowMultiSelect(System.IntPtr,System.String,System.String,System.String,System.String,System.Int32)
+  name: ShowMultiSelect(nint, string?, string?, string?, string, int)
+  href: api/SharpDialogs.SharpFileOpenDialog.html#SharpDialogs_SharpFileOpenDialog_ShowMultiSelect_System_IntPtr_System_String_System_String_System_String_System_String_System_Int32_
+  commentId: M:SharpDialogs.SharpFileOpenDialog.ShowMultiSelect(System.IntPtr,System.String,System.String,System.String,System.String,System.Int32)
+  name.vb: ShowMultiSelect(IntPtr, String, String, String, String, Integer)
+  fullName: SharpDialogs.SharpFileOpenDialog.ShowMultiSelect(nint, string?, string?, string?, string, int)
+  fullName.vb: SharpDialogs.SharpFileOpenDialog.ShowMultiSelect(System.IntPtr, String, String, String, String, Integer)
+  nameWithType: SharpFileOpenDialog.ShowMultiSelect(nint, string?, string?, string?, string, int)
+  nameWithType.vb: SharpFileOpenDialog.ShowMultiSelect(IntPtr, String, String, String, String, Integer)
+- uid: SharpDialogs.SharpFileOpenDialog.ShowMultiSelect*
+  name: ShowMultiSelect
+  href: api/SharpDialogs.SharpFileOpenDialog.html#SharpDialogs_SharpFileOpenDialog_ShowMultiSelect_
+  commentId: Overload:SharpDialogs.SharpFileOpenDialog.ShowMultiSelect
+  isSpec: "True"
+  fullName: SharpDialogs.SharpFileOpenDialog.ShowMultiSelect
+  nameWithType: SharpFileOpenDialog.ShowMultiSelect
+- uid: SharpDialogs.SharpFileOpenDialog.ShowSingleSelect(System.IntPtr,System.String,System.String,System.String,System.Collections.Generic.IReadOnlyCollection{SharpDialogs.SharpDialogFilter},System.Int32)
+  name: ShowSingleSelect(nint, string?, string?, string?, IReadOnlyCollection<SharpDialogFilter>?, int)
+  href: api/SharpDialogs.SharpFileOpenDialog.html#SharpDialogs_SharpFileOpenDialog_ShowSingleSelect_System_IntPtr_System_String_System_String_System_String_System_Collections_Generic_IReadOnlyCollection_SharpDialogs_SharpDialogFilter__System_Int32_
+  commentId: M:SharpDialogs.SharpFileOpenDialog.ShowSingleSelect(System.IntPtr,System.String,System.String,System.String,System.Collections.Generic.IReadOnlyCollection{SharpDialogs.SharpDialogFilter},System.Int32)
+  name.vb: ShowSingleSelect(IntPtr, String, String, String, IReadOnlyCollection(Of SharpDialogFilter), Integer)
+  fullName: SharpDialogs.SharpFileOpenDialog.ShowSingleSelect(nint, string?, string?, string?, System.Collections.Generic.IReadOnlyCollection<SharpDialogs.SharpDialogFilter>?, int)
+  fullName.vb: SharpDialogs.SharpFileOpenDialog.ShowSingleSelect(System.IntPtr, String, String, String, System.Collections.Generic.IReadOnlyCollection(Of SharpDialogs.SharpDialogFilter), Integer)
+  nameWithType: SharpFileOpenDialog.ShowSingleSelect(nint, string?, string?, string?, IReadOnlyCollection<SharpDialogFilter>?, int)
+  nameWithType.vb: SharpFileOpenDialog.ShowSingleSelect(IntPtr, String, String, String, IReadOnlyCollection(Of SharpDialogFilter), Integer)
+- uid: SharpDialogs.SharpFileOpenDialog.ShowSingleSelect(System.IntPtr,System.String,System.String,System.String,System.String,System.Int32)
+  name: ShowSingleSelect(nint, string?, string?, string?, string, int)
+  href: api/SharpDialogs.SharpFileOpenDialog.html#SharpDialogs_SharpFileOpenDialog_ShowSingleSelect_System_IntPtr_System_String_System_String_System_String_System_String_System_Int32_
+  commentId: M:SharpDialogs.SharpFileOpenDialog.ShowSingleSelect(System.IntPtr,System.String,System.String,System.String,System.String,System.Int32)
+  name.vb: ShowSingleSelect(IntPtr, String, String, String, String, Integer)
+  fullName: SharpDialogs.SharpFileOpenDialog.ShowSingleSelect(nint, string?, string?, string?, string, int)
+  fullName.vb: SharpDialogs.SharpFileOpenDialog.ShowSingleSelect(System.IntPtr, String, String, String, String, Integer)
+  nameWithType: SharpFileOpenDialog.ShowSingleSelect(nint, string?, string?, string?, string, int)
+  nameWithType.vb: SharpFileOpenDialog.ShowSingleSelect(IntPtr, String, String, String, String, Integer)
+- uid: SharpDialogs.SharpFileOpenDialog.ShowSingleSelect*
+  name: ShowSingleSelect
+  href: api/SharpDialogs.SharpFileOpenDialog.html#SharpDialogs_SharpFileOpenDialog_ShowSingleSelect_
+  commentId: Overload:SharpDialogs.SharpFileOpenDialog.ShowSingleSelect
+  isSpec: "True"
+  fullName: SharpDialogs.SharpFileOpenDialog.ShowSingleSelect
+  nameWithType: SharpFileOpenDialog.ShowSingleSelect
+- uid: SharpDialogs.SharpFileSaveDialog
+  name: SharpFileSaveDialog
+  href: api/SharpDialogs.SharpFileSaveDialog.html
+  commentId: T:SharpDialogs.SharpFileSaveDialog
+  fullName: SharpDialogs.SharpFileSaveDialog
+  nameWithType: SharpFileSaveDialog
+- uid: SharpDialogs.SharpFileSaveDialog.Show(System.IntPtr,System.String,System.String,System.String,System.Collections.Generic.IReadOnlyCollection{SharpDialogs.SharpDialogFilter},System.Int32)
+  name: Show(nint, string?, string?, string?, IReadOnlyCollection<SharpDialogFilter>?, int)
+  href: api/SharpDialogs.SharpFileSaveDialog.html#SharpDialogs_SharpFileSaveDialog_Show_System_IntPtr_System_String_System_String_System_String_System_Collections_Generic_IReadOnlyCollection_SharpDialogs_SharpDialogFilter__System_Int32_
+  commentId: M:SharpDialogs.SharpFileSaveDialog.Show(System.IntPtr,System.String,System.String,System.String,System.Collections.Generic.IReadOnlyCollection{SharpDialogs.SharpDialogFilter},System.Int32)
+  name.vb: Show(IntPtr, String, String, String, IReadOnlyCollection(Of SharpDialogFilter), Integer)
+  fullName: SharpDialogs.SharpFileSaveDialog.Show(nint, string?, string?, string?, System.Collections.Generic.IReadOnlyCollection<SharpDialogs.SharpDialogFilter>?, int)
+  fullName.vb: SharpDialogs.SharpFileSaveDialog.Show(System.IntPtr, String, String, String, System.Collections.Generic.IReadOnlyCollection(Of SharpDialogs.SharpDialogFilter), Integer)
+  nameWithType: SharpFileSaveDialog.Show(nint, string?, string?, string?, IReadOnlyCollection<SharpDialogFilter>?, int)
+  nameWithType.vb: SharpFileSaveDialog.Show(IntPtr, String, String, String, IReadOnlyCollection(Of SharpDialogFilter), Integer)
+- uid: SharpDialogs.SharpFileSaveDialog.Show(System.IntPtr,System.String,System.String,System.String,System.String,System.Int32)
+  name: Show(nint, string?, string?, string?, string, int)
+  href: api/SharpDialogs.SharpFileSaveDialog.html#SharpDialogs_SharpFileSaveDialog_Show_System_IntPtr_System_String_System_String_System_String_System_String_System_Int32_
+  commentId: M:SharpDialogs.SharpFileSaveDialog.Show(System.IntPtr,System.String,System.String,System.String,System.String,System.Int32)
+  name.vb: Show(IntPtr, String, String, String, String, Integer)
+  fullName: SharpDialogs.SharpFileSaveDialog.Show(nint, string?, string?, string?, string, int)
+  fullName.vb: SharpDialogs.SharpFileSaveDialog.Show(System.IntPtr, String, String, String, String, Integer)
+  nameWithType: SharpFileSaveDialog.Show(nint, string?, string?, string?, string, int)
+  nameWithType.vb: SharpFileSaveDialog.Show(IntPtr, String, String, String, String, Integer)
+- uid: SharpDialogs.SharpFileSaveDialog.Show*
+  name: Show
+  href: api/SharpDialogs.SharpFileSaveDialog.html#SharpDialogs_SharpFileSaveDialog_Show_
+  commentId: Overload:SharpDialogs.SharpFileSaveDialog.Show
+  isSpec: "True"
+  fullName: SharpDialogs.SharpFileSaveDialog.Show
+  nameWithType: SharpFileSaveDialog.Show
+- uid: SharpDialogs.SharpFolderBrowserDialog
+  name: SharpFolderBrowserDialog
+  href: api/SharpDialogs.SharpFolderBrowserDialog.html
+  commentId: T:SharpDialogs.SharpFolderBrowserDialog
+  fullName: SharpDialogs.SharpFolderBrowserDialog
+  nameWithType: SharpFolderBrowserDialog
+- uid: SharpDialogs.SharpFolderBrowserDialog.ShowMultiSelect(System.IntPtr,System.String,System.String)
+  name: ShowMultiSelect(nint, string?, string?)
+  href: api/SharpDialogs.SharpFolderBrowserDialog.html#SharpDialogs_SharpFolderBrowserDialog_ShowMultiSelect_System_IntPtr_System_String_System_String_
+  commentId: M:SharpDialogs.SharpFolderBrowserDialog.ShowMultiSelect(System.IntPtr,System.String,System.String)
+  name.vb: ShowMultiSelect(IntPtr, String, String)
+  fullName: SharpDialogs.SharpFolderBrowserDialog.ShowMultiSelect(nint, string?, string?)
+  fullName.vb: SharpDialogs.SharpFolderBrowserDialog.ShowMultiSelect(System.IntPtr, String, String)
+  nameWithType: SharpFolderBrowserDialog.ShowMultiSelect(nint, string?, string?)
+  nameWithType.vb: SharpFolderBrowserDialog.ShowMultiSelect(IntPtr, String, String)
+- uid: SharpDialogs.SharpFolderBrowserDialog.ShowMultiSelect*
+  name: ShowMultiSelect
+  href: api/SharpDialogs.SharpFolderBrowserDialog.html#SharpDialogs_SharpFolderBrowserDialog_ShowMultiSelect_
+  commentId: Overload:SharpDialogs.SharpFolderBrowserDialog.ShowMultiSelect
+  isSpec: "True"
+  fullName: SharpDialogs.SharpFolderBrowserDialog.ShowMultiSelect
+  nameWithType: SharpFolderBrowserDialog.ShowMultiSelect
+- uid: SharpDialogs.SharpFolderBrowserDialog.ShowSingleSelect(System.IntPtr,System.String,System.String)
+  name: ShowSingleSelect(nint, string?, string?)
+  href: api/SharpDialogs.SharpFolderBrowserDialog.html#SharpDialogs_SharpFolderBrowserDialog_ShowSingleSelect_System_IntPtr_System_String_System_String_
+  commentId: M:SharpDialogs.SharpFolderBrowserDialog.ShowSingleSelect(System.IntPtr,System.String,System.String)
+  name.vb: ShowSingleSelect(IntPtr, String, String)
+  fullName: SharpDialogs.SharpFolderBrowserDialog.ShowSingleSelect(nint, string?, string?)
+  fullName.vb: SharpDialogs.SharpFolderBrowserDialog.ShowSingleSelect(System.IntPtr, String, String)
+  nameWithType: SharpFolderBrowserDialog.ShowSingleSelect(nint, string?, string?)
+  nameWithType.vb: SharpFolderBrowserDialog.ShowSingleSelect(IntPtr, String, String)
+- uid: SharpDialogs.SharpFolderBrowserDialog.ShowSingleSelect*
+  name: ShowSingleSelect
+  href: api/SharpDialogs.SharpFolderBrowserDialog.html#SharpDialogs_SharpFolderBrowserDialog_ShowSingleSelect_
+  commentId: Overload:SharpDialogs.SharpFolderBrowserDialog.ShowSingleSelect
+  isSpec: "True"
+  fullName: SharpDialogs.SharpFolderBrowserDialog.ShowSingleSelect
+  nameWithType: SharpFolderBrowserDialog.ShowSingleSelect
+- uid: SharpDialogs.SharpProgressDialog
+  name: SharpProgressDialog
+  href: api/SharpDialogs.SharpProgressDialog.html
+  commentId: T:SharpDialogs.SharpProgressDialog
+  fullName: SharpDialogs.SharpProgressDialog
+  nameWithType: SharpProgressDialog
+- uid: SharpDialogs.SharpProgressDialog.#ctor(System.IntPtr,System.String,System.String,System.Boolean,System.Boolean)
+  name: SharpProgressDialog(nint, string?, string?, bool, bool)
+  href: api/SharpDialogs.SharpProgressDialog.html#SharpDialogs_SharpProgressDialog__ctor_System_IntPtr_System_String_System_String_System_Boolean_System_Boolean_
+  commentId: M:SharpDialogs.SharpProgressDialog.#ctor(System.IntPtr,System.String,System.String,System.Boolean,System.Boolean)
+  name.vb: New(IntPtr, String, String, Boolean, Boolean)
+  fullName: SharpDialogs.SharpProgressDialog.SharpProgressDialog(nint, string?, string?, bool, bool)
+  fullName.vb: SharpDialogs.SharpProgressDialog.New(System.IntPtr, String, String, Boolean, Boolean)
+  nameWithType: SharpProgressDialog.SharpProgressDialog(nint, string?, string?, bool, bool)
+  nameWithType.vb: SharpProgressDialog.New(IntPtr, String, String, Boolean, Boolean)
+- uid: SharpDialogs.SharpProgressDialog.#ctor*
+  name: SharpProgressDialog
+  href: api/SharpDialogs.SharpProgressDialog.html#SharpDialogs_SharpProgressDialog__ctor_
+  commentId: Overload:SharpDialogs.SharpProgressDialog.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: SharpDialogs.SharpProgressDialog.SharpProgressDialog
+  fullName.vb: SharpDialogs.SharpProgressDialog.New
+  nameWithType: SharpProgressDialog.SharpProgressDialog
+  nameWithType.vb: SharpProgressDialog.New
+- uid: SharpDialogs.SharpProgressDialog.Dispose
+  name: Dispose()
+  href: api/SharpDialogs.SharpProgressDialog.html#SharpDialogs_SharpProgressDialog_Dispose
+  commentId: M:SharpDialogs.SharpProgressDialog.Dispose
+  fullName: SharpDialogs.SharpProgressDialog.Dispose()
+  nameWithType: SharpProgressDialog.Dispose()
+- uid: SharpDialogs.SharpProgressDialog.Dispose*
+  name: Dispose
+  href: api/SharpDialogs.SharpProgressDialog.html#SharpDialogs_SharpProgressDialog_Dispose_
+  commentId: Overload:SharpDialogs.SharpProgressDialog.Dispose
+  isSpec: "True"
+  fullName: SharpDialogs.SharpProgressDialog.Dispose
+  nameWithType: SharpProgressDialog.Dispose
+- uid: SharpDialogs.SharpProgressDialog.HasUserCancelled
+  name: HasUserCancelled()
+  href: api/SharpDialogs.SharpProgressDialog.html#SharpDialogs_SharpProgressDialog_HasUserCancelled
+  commentId: M:SharpDialogs.SharpProgressDialog.HasUserCancelled
+  fullName: SharpDialogs.SharpProgressDialog.HasUserCancelled()
+  nameWithType: SharpProgressDialog.HasUserCancelled()
+- uid: SharpDialogs.SharpProgressDialog.HasUserCancelled*
+  name: HasUserCancelled
+  href: api/SharpDialogs.SharpProgressDialog.html#SharpDialogs_SharpProgressDialog_HasUserCancelled_
+  commentId: Overload:SharpDialogs.SharpProgressDialog.HasUserCancelled
+  isSpec: "True"
+  fullName: SharpDialogs.SharpProgressDialog.HasUserCancelled
+  nameWithType: SharpProgressDialog.HasUserCancelled
+- uid: SharpDialogs.SharpProgressDialog.PauseTimer
+  name: PauseTimer()
+  href: api/SharpDialogs.SharpProgressDialog.html#SharpDialogs_SharpProgressDialog_PauseTimer
+  commentId: M:SharpDialogs.SharpProgressDialog.PauseTimer
+  fullName: SharpDialogs.SharpProgressDialog.PauseTimer()
+  nameWithType: SharpProgressDialog.PauseTimer()
+- uid: SharpDialogs.SharpProgressDialog.PauseTimer*
+  name: PauseTimer
+  href: api/SharpDialogs.SharpProgressDialog.html#SharpDialogs_SharpProgressDialog_PauseTimer_
+  commentId: Overload:SharpDialogs.SharpProgressDialog.PauseTimer
+  isSpec: "True"
+  fullName: SharpDialogs.SharpProgressDialog.PauseTimer
+  nameWithType: SharpProgressDialog.PauseTimer
+- uid: SharpDialogs.SharpProgressDialog.ResetTimer
+  name: ResetTimer()
+  href: api/SharpDialogs.SharpProgressDialog.html#SharpDialogs_SharpProgressDialog_ResetTimer
+  commentId: M:SharpDialogs.SharpProgressDialog.ResetTimer
+  fullName: SharpDialogs.SharpProgressDialog.ResetTimer()
+  nameWithType: SharpProgressDialog.ResetTimer()
+- uid: SharpDialogs.SharpProgressDialog.ResetTimer*
+  name: ResetTimer
+  href: api/SharpDialogs.SharpProgressDialog.html#SharpDialogs_SharpProgressDialog_ResetTimer_
+  commentId: Overload:SharpDialogs.SharpProgressDialog.ResetTimer
+  isSpec: "True"
+  fullName: SharpDialogs.SharpProgressDialog.ResetTimer
+  nameWithType: SharpProgressDialog.ResetTimer
+- uid: SharpDialogs.SharpProgressDialog.ResumeTimer
+  name: ResumeTimer()
+  href: api/SharpDialogs.SharpProgressDialog.html#SharpDialogs_SharpProgressDialog_ResumeTimer
+  commentId: M:SharpDialogs.SharpProgressDialog.ResumeTimer
+  fullName: SharpDialogs.SharpProgressDialog.ResumeTimer()
+  nameWithType: SharpProgressDialog.ResumeTimer()
+- uid: SharpDialogs.SharpProgressDialog.ResumeTimer*
+  name: ResumeTimer
+  href: api/SharpDialogs.SharpProgressDialog.html#SharpDialogs_SharpProgressDialog_ResumeTimer_
+  commentId: Overload:SharpDialogs.SharpProgressDialog.ResumeTimer
+  isSpec: "True"
+  fullName: SharpDialogs.SharpProgressDialog.ResumeTimer
+  nameWithType: SharpProgressDialog.ResumeTimer
+- uid: SharpDialogs.SharpProgressDialog.SetLine1(System.String,System.Boolean)
+  name: SetLine1(string, bool)
+  href: api/SharpDialogs.SharpProgressDialog.html#SharpDialogs_SharpProgressDialog_SetLine1_System_String_System_Boolean_
+  commentId: M:SharpDialogs.SharpProgressDialog.SetLine1(System.String,System.Boolean)
+  name.vb: SetLine1(String, Boolean)
+  fullName: SharpDialogs.SharpProgressDialog.SetLine1(string, bool)
+  fullName.vb: SharpDialogs.SharpProgressDialog.SetLine1(String, Boolean)
+  nameWithType: SharpProgressDialog.SetLine1(string, bool)
+  nameWithType.vb: SharpProgressDialog.SetLine1(String, Boolean)
+- uid: SharpDialogs.SharpProgressDialog.SetLine1*
+  name: SetLine1
+  href: api/SharpDialogs.SharpProgressDialog.html#SharpDialogs_SharpProgressDialog_SetLine1_
+  commentId: Overload:SharpDialogs.SharpProgressDialog.SetLine1
+  isSpec: "True"
+  fullName: SharpDialogs.SharpProgressDialog.SetLine1
+  nameWithType: SharpProgressDialog.SetLine1
+- uid: SharpDialogs.SharpProgressDialog.SetLine2(System.String,System.Boolean)
+  name: SetLine2(string, bool)
+  href: api/SharpDialogs.SharpProgressDialog.html#SharpDialogs_SharpProgressDialog_SetLine2_System_String_System_Boolean_
+  commentId: M:SharpDialogs.SharpProgressDialog.SetLine2(System.String,System.Boolean)
+  name.vb: SetLine2(String, Boolean)
+  fullName: SharpDialogs.SharpProgressDialog.SetLine2(string, bool)
+  fullName.vb: SharpDialogs.SharpProgressDialog.SetLine2(String, Boolean)
+  nameWithType: SharpProgressDialog.SetLine2(string, bool)
+  nameWithType.vb: SharpProgressDialog.SetLine2(String, Boolean)
+- uid: SharpDialogs.SharpProgressDialog.SetLine2*
+  name: SetLine2
+  href: api/SharpDialogs.SharpProgressDialog.html#SharpDialogs_SharpProgressDialog_SetLine2_
+  commentId: Overload:SharpDialogs.SharpProgressDialog.SetLine2
+  isSpec: "True"
+  fullName: SharpDialogs.SharpProgressDialog.SetLine2
+  nameWithType: SharpProgressDialog.SetLine2
+- uid: SharpDialogs.SharpProgressDialog.SetProgress(System.UInt64,System.UInt64)
+  name: SetProgress(ulong, ulong)
+  href: api/SharpDialogs.SharpProgressDialog.html#SharpDialogs_SharpProgressDialog_SetProgress_System_UInt64_System_UInt64_
+  commentId: M:SharpDialogs.SharpProgressDialog.SetProgress(System.UInt64,System.UInt64)
+  name.vb: SetProgress(ULong, ULong)
+  fullName: SharpDialogs.SharpProgressDialog.SetProgress(ulong, ulong)
+  fullName.vb: SharpDialogs.SharpProgressDialog.SetProgress(ULong, ULong)
+  nameWithType: SharpProgressDialog.SetProgress(ulong, ulong)
+  nameWithType.vb: SharpProgressDialog.SetProgress(ULong, ULong)
+- uid: SharpDialogs.SharpProgressDialog.SetProgress*
+  name: SetProgress
+  href: api/SharpDialogs.SharpProgressDialog.html#SharpDialogs_SharpProgressDialog_SetProgress_
+  commentId: Overload:SharpDialogs.SharpProgressDialog.SetProgress
+  isSpec: "True"
+  fullName: SharpDialogs.SharpProgressDialog.SetProgress
+  nameWithType: SharpProgressDialog.SetProgress

@@ -1,0 +1,157 @@
+{
+  "source_base_path": "C:/projects/sharpdialogs/SharpDialogs/Documentation",
+  "xrefmap": "xrefmap.yml",
+  "files": [
+    {
+      "type": "Resource",
+      "output": {
+        "resource": {
+          "relative_path": "index.json"
+        }
+      }
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpDialogs.SharpDialogFilter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpDialogs.SharpDialogFilter.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SharpDialogs.SharpDialogFilter",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpDialogs.SharpDialogHelpers.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpDialogs.SharpDialogHelpers.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SharpDialogs.SharpDialogHelpers",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpDialogs.SharpFileOpenDialog.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpDialogs.SharpFileOpenDialog.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SharpDialogs.SharpFileOpenDialog",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpDialogs.SharpFileSaveDialog.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpDialogs.SharpFileSaveDialog.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SharpDialogs.SharpFileSaveDialog",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpDialogs.SharpFolderBrowserDialog.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpDialogs.SharpFolderBrowserDialog.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SharpDialogs.SharpFolderBrowserDialog",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpDialogs.SharpProgressDialog.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpDialogs.SharpProgressDialog.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SharpDialogs.SharpProgressDialog",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpDialogs.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpDialogs.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SharpDialogs",
+      "Summary": null
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "api/index.md",
+      "output": {
+        ".html": {
+          "relative_path": "api/index.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "api/toc.yml",
+      "output": {
+        ".json": {
+          "relative_path": "api/toc.json"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "index.md",
+      "output": {
+        ".html": {
+          "relative_path": "index.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "toc.yml",
+      "output": {
+        ".json": {
+          "relative_path": "toc.json"
+        }
+      },
+      "version": ""
+    }
+  ],
+  "groups": [
+    {
+      "xrefmap": "xrefmap.yml"
+    }
+  ]
+}
