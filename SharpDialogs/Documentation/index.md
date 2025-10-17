@@ -4,3 +4,4 @@
 ![License](https://img.shields.io/github/license/JeremyAnsel/SharpDialogs)
 
 SharpDialogs is a .Net library for win32 dialogs.
+Include FileOpenDialog, FileSaveDialog, FolderBrowserDialog, ProgressDialog.
