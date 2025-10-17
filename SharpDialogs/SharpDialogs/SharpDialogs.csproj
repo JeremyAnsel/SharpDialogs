@@ -21,7 +21,7 @@
     <PackageLicenseFile>LICENSE</PackageLicenseFile>
     <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
     <PackageReadmeFile>README.md</PackageReadmeFile>
-    <PackageTags>Win32 Shell UI Dialog FileOpenDialog FileSaveDialog FolderBrowserDialog ProgressDialog .Net</PackageTags>
+    <PackageTags>Win32 Shell UI Dialog File FileOpen OpenFile Open FileOpenDialog FileSave SaveFile Save FileSaveDialog FolderBrowser Folder Browser FolderBrowserDialog Progress Timer ProgressDialog .Net</PackageTags>
     <PackageProjectUrl>https://github.com/JeremyAnsel/SharpDialogs</PackageProjectUrl>
     <EnableNETAnalyzers>true</EnableNETAnalyzers>
     <NoWarn>CA1416</NoWarn>

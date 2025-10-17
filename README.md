@@ -17,6 +17,7 @@ Build           | https://ci.appveyor.com/project/JeremyAnsel/sharpdialogs/branc
 # Usage
 
 ## `SharpFileOpenDialog`:
+To open a FileOpen dialog, use the `SharpFileOpenDialog` static class. You can allow only a single file selection or allow multiple files selection.
 ```csharp
 using SharpDialogs;
 
@@ -28,6 +29,7 @@ IReadOnlyList<string>? result = SharpFileOpenDialog.ShowMultiSelect(hWndOwner, "
 ```
 
 ## `SharpFileSaveDialog`:
+To open a FileSave dialog, use the `SharpFileSaveDialog` static class.
 ```csharp
 using SharpDialogs;
 
@@ -35,6 +37,7 @@ string? result = SharpFileSaveDialog.Show(hWndOwner, "Title", "C:\Initial\Direct
 ```
 
 ## `SharpFolderBrowserDialog`:
+To open a FolderBrowser dialog, use the `SharpFolderBrowserDialog` static class. You can allow only a single folder selection or allow multiple folders selection.
 ```csharp
 using SharpDialogs;
 
@@ -46,6 +49,8 @@ IReadOnlyList<string>? result = SharpFolderBrowserDialog.ShowMultiSelect(hWndOwn
 ```
 
 ## `SharpProgressDialog`:
+To show a Progress dialog, use the `SharpProgressDialog` class. The dialog is closed when the class object is disposed.
+There is an option to show the remaining time.
 ```csharp
 using SharpDialogs;
 
