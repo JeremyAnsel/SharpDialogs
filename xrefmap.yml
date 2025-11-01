@@ -397,3 +397,159 @@ references:
   isSpec: "True"
   fullName: SharpDialogs.SharpProgressDialog.SetProgress
   nameWithType: SharpProgressDialog.SetProgress
+- uid: SharpDialogs.Wpf
+  name: SharpDialogs.Wpf
+  href: api/SharpDialogs.Wpf.html
+  commentId: N:SharpDialogs.Wpf
+  fullName: SharpDialogs.Wpf
+  nameWithType: SharpDialogs.Wpf
+- uid: SharpDialogs.Wpf.SharpFileOpenDialogWpf
+  name: SharpFileOpenDialogWpf
+  href: api/SharpDialogs.Wpf.SharpFileOpenDialogWpf.html
+  commentId: T:SharpDialogs.Wpf.SharpFileOpenDialogWpf
+  fullName: SharpDialogs.Wpf.SharpFileOpenDialogWpf
+  nameWithType: SharpFileOpenDialogWpf
+- uid: SharpDialogs.Wpf.SharpFileOpenDialogWpf.ShowMultiSelect(System.Windows.Window,System.String,System.String,System.String,System.Collections.Generic.IReadOnlyCollection{SharpDialogs.SharpDialogFilter},System.Int32)
+  name: ShowMultiSelect(Window?, string?, string?, string?, IReadOnlyCollection<SharpDialogFilter>?, int)
+  href: api/SharpDialogs.Wpf.SharpFileOpenDialogWpf.html#SharpDialogs_Wpf_SharpFileOpenDialogWpf_ShowMultiSelect_System_Windows_Window_System_String_System_String_System_String_System_Collections_Generic_IReadOnlyCollection_SharpDialogs_SharpDialogFilter__System_Int32_
+  commentId: M:SharpDialogs.Wpf.SharpFileOpenDialogWpf.ShowMultiSelect(System.Windows.Window,System.String,System.String,System.String,System.Collections.Generic.IReadOnlyCollection{SharpDialogs.SharpDialogFilter},System.Int32)
+  name.vb: ShowMultiSelect(Window, String, String, String, IReadOnlyCollection(Of SharpDialogFilter), Integer)
+  fullName: SharpDialogs.Wpf.SharpFileOpenDialogWpf.ShowMultiSelect(System.Windows.Window?, string?, string?, string?, System.Collections.Generic.IReadOnlyCollection<SharpDialogs.SharpDialogFilter>?, int)
+  fullName.vb: SharpDialogs.Wpf.SharpFileOpenDialogWpf.ShowMultiSelect(System.Windows.Window, String, String, String, System.Collections.Generic.IReadOnlyCollection(Of SharpDialogs.SharpDialogFilter), Integer)
+  nameWithType: SharpFileOpenDialogWpf.ShowMultiSelect(Window?, string?, string?, string?, IReadOnlyCollection<SharpDialogFilter>?, int)
+  nameWithType.vb: SharpFileOpenDialogWpf.ShowMultiSelect(Window, String, String, String, IReadOnlyCollection(Of SharpDialogFilter), Integer)
+- uid: SharpDialogs.Wpf.SharpFileOpenDialogWpf.ShowMultiSelect(System.Windows.Window,System.String,System.String,System.String,System.String,System.Int32)
+  name: ShowMultiSelect(Window?, string?, string?, string?, string, int)
+  href: api/SharpDialogs.Wpf.SharpFileOpenDialogWpf.html#SharpDialogs_Wpf_SharpFileOpenDialogWpf_ShowMultiSelect_System_Windows_Window_System_String_System_String_System_String_System_String_System_Int32_
+  commentId: M:SharpDialogs.Wpf.SharpFileOpenDialogWpf.ShowMultiSelect(System.Windows.Window,System.String,System.String,System.String,System.String,System.Int32)
+  name.vb: ShowMultiSelect(Window, String, String, String, String, Integer)
+  fullName: SharpDialogs.Wpf.SharpFileOpenDialogWpf.ShowMultiSelect(System.Windows.Window?, string?, string?, string?, string, int)
+  fullName.vb: SharpDialogs.Wpf.SharpFileOpenDialogWpf.ShowMultiSelect(System.Windows.Window, String, String, String, String, Integer)
+  nameWithType: SharpFileOpenDialogWpf.ShowMultiSelect(Window?, string?, string?, string?, string, int)
+  nameWithType.vb: SharpFileOpenDialogWpf.ShowMultiSelect(Window, String, String, String, String, Integer)
+- uid: SharpDialogs.Wpf.SharpFileOpenDialogWpf.ShowMultiSelect*
+  name: ShowMultiSelect
+  href: api/SharpDialogs.Wpf.SharpFileOpenDialogWpf.html#SharpDialogs_Wpf_SharpFileOpenDialogWpf_ShowMultiSelect_
+  commentId: Overload:SharpDialogs.Wpf.SharpFileOpenDialogWpf.ShowMultiSelect
+  isSpec: "True"
+  fullName: SharpDialogs.Wpf.SharpFileOpenDialogWpf.ShowMultiSelect
+  nameWithType: SharpFileOpenDialogWpf.ShowMultiSelect
+- uid: SharpDialogs.Wpf.SharpFileOpenDialogWpf.ShowSingleSelect(System.Windows.Window,System.String,System.String,System.String,System.Collections.Generic.IReadOnlyCollection{SharpDialogs.SharpDialogFilter},System.Int32)
+  name: ShowSingleSelect(Window?, string?, string?, string?, IReadOnlyCollection<SharpDialogFilter>?, int)
+  href: api/SharpDialogs.Wpf.SharpFileOpenDialogWpf.html#SharpDialogs_Wpf_SharpFileOpenDialogWpf_ShowSingleSelect_System_Windows_Window_System_String_System_String_System_String_System_Collections_Generic_IReadOnlyCollection_SharpDialogs_SharpDialogFilter__System_Int32_
+  commentId: M:SharpDialogs.Wpf.SharpFileOpenDialogWpf.ShowSingleSelect(System.Windows.Window,System.String,System.String,System.String,System.Collections.Generic.IReadOnlyCollection{SharpDialogs.SharpDialogFilter},System.Int32)
+  name.vb: ShowSingleSelect(Window, String, String, String, IReadOnlyCollection(Of SharpDialogFilter), Integer)
+  fullName: SharpDialogs.Wpf.SharpFileOpenDialogWpf.ShowSingleSelect(System.Windows.Window?, string?, string?, string?, System.Collections.Generic.IReadOnlyCollection<SharpDialogs.SharpDialogFilter>?, int)
+  fullName.vb: SharpDialogs.Wpf.SharpFileOpenDialogWpf.ShowSingleSelect(System.Windows.Window, String, String, String, System.Collections.Generic.IReadOnlyCollection(Of SharpDialogs.SharpDialogFilter), Integer)
+  nameWithType: SharpFileOpenDialogWpf.ShowSingleSelect(Window?, string?, string?, string?, IReadOnlyCollection<SharpDialogFilter>?, int)
+  nameWithType.vb: SharpFileOpenDialogWpf.ShowSingleSelect(Window, String, String, String, IReadOnlyCollection(Of SharpDialogFilter), Integer)
+- uid: SharpDialogs.Wpf.SharpFileOpenDialogWpf.ShowSingleSelect(System.Windows.Window,System.String,System.String,System.String,System.String,System.Int32)
+  name: ShowSingleSelect(Window?, string?, string?, string?, string, int)
+  href: api/SharpDialogs.Wpf.SharpFileOpenDialogWpf.html#SharpDialogs_Wpf_SharpFileOpenDialogWpf_ShowSingleSelect_System_Windows_Window_System_String_System_String_System_String_System_String_System_Int32_
+  commentId: M:SharpDialogs.Wpf.SharpFileOpenDialogWpf.ShowSingleSelect(System.Windows.Window,System.String,System.String,System.String,System.String,System.Int32)
+  name.vb: ShowSingleSelect(Window, String, String, String, String, Integer)
+  fullName: SharpDialogs.Wpf.SharpFileOpenDialogWpf.ShowSingleSelect(System.Windows.Window?, string?, string?, string?, string, int)
+  fullName.vb: SharpDialogs.Wpf.SharpFileOpenDialogWpf.ShowSingleSelect(System.Windows.Window, String, String, String, String, Integer)
+  nameWithType: SharpFileOpenDialogWpf.ShowSingleSelect(Window?, string?, string?, string?, string, int)
+  nameWithType.vb: SharpFileOpenDialogWpf.ShowSingleSelect(Window, String, String, String, String, Integer)
+- uid: SharpDialogs.Wpf.SharpFileOpenDialogWpf.ShowSingleSelect*
+  name: ShowSingleSelect
+  href: api/SharpDialogs.Wpf.SharpFileOpenDialogWpf.html#SharpDialogs_Wpf_SharpFileOpenDialogWpf_ShowSingleSelect_
+  commentId: Overload:SharpDialogs.Wpf.SharpFileOpenDialogWpf.ShowSingleSelect
+  isSpec: "True"
+  fullName: SharpDialogs.Wpf.SharpFileOpenDialogWpf.ShowSingleSelect
+  nameWithType: SharpFileOpenDialogWpf.ShowSingleSelect
+- uid: SharpDialogs.Wpf.SharpFileSaveDialogWpf
+  name: SharpFileSaveDialogWpf
+  href: api/SharpDialogs.Wpf.SharpFileSaveDialogWpf.html
+  commentId: T:SharpDialogs.Wpf.SharpFileSaveDialogWpf
+  fullName: SharpDialogs.Wpf.SharpFileSaveDialogWpf
+  nameWithType: SharpFileSaveDialogWpf
+- uid: SharpDialogs.Wpf.SharpFileSaveDialogWpf.Show(System.Windows.Window,System.String,System.String,System.String,System.Collections.Generic.IReadOnlyCollection{SharpDialogs.SharpDialogFilter},System.Int32)
+  name: Show(Window?, string?, string?, string?, IReadOnlyCollection<SharpDialogFilter>?, int)
+  href: api/SharpDialogs.Wpf.SharpFileSaveDialogWpf.html#SharpDialogs_Wpf_SharpFileSaveDialogWpf_Show_System_Windows_Window_System_String_System_String_System_String_System_Collections_Generic_IReadOnlyCollection_SharpDialogs_SharpDialogFilter__System_Int32_
+  commentId: M:SharpDialogs.Wpf.SharpFileSaveDialogWpf.Show(System.Windows.Window,System.String,System.String,System.String,System.Collections.Generic.IReadOnlyCollection{SharpDialogs.SharpDialogFilter},System.Int32)
+  name.vb: Show(Window, String, String, String, IReadOnlyCollection(Of SharpDialogFilter), Integer)
+  fullName: SharpDialogs.Wpf.SharpFileSaveDialogWpf.Show(System.Windows.Window?, string?, string?, string?, System.Collections.Generic.IReadOnlyCollection<SharpDialogs.SharpDialogFilter>?, int)
+  fullName.vb: SharpDialogs.Wpf.SharpFileSaveDialogWpf.Show(System.Windows.Window, String, String, String, System.Collections.Generic.IReadOnlyCollection(Of SharpDialogs.SharpDialogFilter), Integer)
+  nameWithType: SharpFileSaveDialogWpf.Show(Window?, string?, string?, string?, IReadOnlyCollection<SharpDialogFilter>?, int)
+  nameWithType.vb: SharpFileSaveDialogWpf.Show(Window, String, String, String, IReadOnlyCollection(Of SharpDialogFilter), Integer)
+- uid: SharpDialogs.Wpf.SharpFileSaveDialogWpf.Show(System.Windows.Window,System.String,System.String,System.String,System.String,System.Int32)
+  name: Show(Window?, string?, string?, string?, string, int)
+  href: api/SharpDialogs.Wpf.SharpFileSaveDialogWpf.html#SharpDialogs_Wpf_SharpFileSaveDialogWpf_Show_System_Windows_Window_System_String_System_String_System_String_System_String_System_Int32_
+  commentId: M:SharpDialogs.Wpf.SharpFileSaveDialogWpf.Show(System.Windows.Window,System.String,System.String,System.String,System.String,System.Int32)
+  name.vb: Show(Window, String, String, String, String, Integer)
+  fullName: SharpDialogs.Wpf.SharpFileSaveDialogWpf.Show(System.Windows.Window?, string?, string?, string?, string, int)
+  fullName.vb: SharpDialogs.Wpf.SharpFileSaveDialogWpf.Show(System.Windows.Window, String, String, String, String, Integer)
+  nameWithType: SharpFileSaveDialogWpf.Show(Window?, string?, string?, string?, string, int)
+  nameWithType.vb: SharpFileSaveDialogWpf.Show(Window, String, String, String, String, Integer)
+- uid: SharpDialogs.Wpf.SharpFileSaveDialogWpf.Show*
+  name: Show
+  href: api/SharpDialogs.Wpf.SharpFileSaveDialogWpf.html#SharpDialogs_Wpf_SharpFileSaveDialogWpf_Show_
+  commentId: Overload:SharpDialogs.Wpf.SharpFileSaveDialogWpf.Show
+  isSpec: "True"
+  fullName: SharpDialogs.Wpf.SharpFileSaveDialogWpf.Show
+  nameWithType: SharpFileSaveDialogWpf.Show
+- uid: SharpDialogs.Wpf.SharpFolderBrowserDialogWpf
+  name: SharpFolderBrowserDialogWpf
+  href: api/SharpDialogs.Wpf.SharpFolderBrowserDialogWpf.html
+  commentId: T:SharpDialogs.Wpf.SharpFolderBrowserDialogWpf
+  fullName: SharpDialogs.Wpf.SharpFolderBrowserDialogWpf
+  nameWithType: SharpFolderBrowserDialogWpf
+- uid: SharpDialogs.Wpf.SharpFolderBrowserDialogWpf.ShowMultiSelect(System.Windows.Window,System.String,System.String)
+  name: ShowMultiSelect(Window?, string?, string?)
+  href: api/SharpDialogs.Wpf.SharpFolderBrowserDialogWpf.html#SharpDialogs_Wpf_SharpFolderBrowserDialogWpf_ShowMultiSelect_System_Windows_Window_System_String_System_String_
+  commentId: M:SharpDialogs.Wpf.SharpFolderBrowserDialogWpf.ShowMultiSelect(System.Windows.Window,System.String,System.String)
+  name.vb: ShowMultiSelect(Window, String, String)
+  fullName: SharpDialogs.Wpf.SharpFolderBrowserDialogWpf.ShowMultiSelect(System.Windows.Window?, string?, string?)
+  fullName.vb: SharpDialogs.Wpf.SharpFolderBrowserDialogWpf.ShowMultiSelect(System.Windows.Window, String, String)
+  nameWithType: SharpFolderBrowserDialogWpf.ShowMultiSelect(Window?, string?, string?)
+  nameWithType.vb: SharpFolderBrowserDialogWpf.ShowMultiSelect(Window, String, String)
+- uid: SharpDialogs.Wpf.SharpFolderBrowserDialogWpf.ShowMultiSelect*
+  name: ShowMultiSelect
+  href: api/SharpDialogs.Wpf.SharpFolderBrowserDialogWpf.html#SharpDialogs_Wpf_SharpFolderBrowserDialogWpf_ShowMultiSelect_
+  commentId: Overload:SharpDialogs.Wpf.SharpFolderBrowserDialogWpf.ShowMultiSelect
+  isSpec: "True"
+  fullName: SharpDialogs.Wpf.SharpFolderBrowserDialogWpf.ShowMultiSelect
+  nameWithType: SharpFolderBrowserDialogWpf.ShowMultiSelect
+- uid: SharpDialogs.Wpf.SharpFolderBrowserDialogWpf.ShowSingleSelect(System.Windows.Window,System.String,System.String)
+  name: ShowSingleSelect(Window?, string?, string?)
+  href: api/SharpDialogs.Wpf.SharpFolderBrowserDialogWpf.html#SharpDialogs_Wpf_SharpFolderBrowserDialogWpf_ShowSingleSelect_System_Windows_Window_System_String_System_String_
+  commentId: M:SharpDialogs.Wpf.SharpFolderBrowserDialogWpf.ShowSingleSelect(System.Windows.Window,System.String,System.String)
+  name.vb: ShowSingleSelect(Window, String, String)
+  fullName: SharpDialogs.Wpf.SharpFolderBrowserDialogWpf.ShowSingleSelect(System.Windows.Window?, string?, string?)
+  fullName.vb: SharpDialogs.Wpf.SharpFolderBrowserDialogWpf.ShowSingleSelect(System.Windows.Window, String, String)
+  nameWithType: SharpFolderBrowserDialogWpf.ShowSingleSelect(Window?, string?, string?)
+  nameWithType.vb: SharpFolderBrowserDialogWpf.ShowSingleSelect(Window, String, String)
+- uid: SharpDialogs.Wpf.SharpFolderBrowserDialogWpf.ShowSingleSelect*
+  name: ShowSingleSelect
+  href: api/SharpDialogs.Wpf.SharpFolderBrowserDialogWpf.html#SharpDialogs_Wpf_SharpFolderBrowserDialogWpf_ShowSingleSelect_
+  commentId: Overload:SharpDialogs.Wpf.SharpFolderBrowserDialogWpf.ShowSingleSelect
+  isSpec: "True"
+  fullName: SharpDialogs.Wpf.SharpFolderBrowserDialogWpf.ShowSingleSelect
+  nameWithType: SharpFolderBrowserDialogWpf.ShowSingleSelect
+- uid: SharpDialogs.Wpf.SharpProgressDialogWpf
+  name: SharpProgressDialogWpf
+  href: api/SharpDialogs.Wpf.SharpProgressDialogWpf.html
+  commentId: T:SharpDialogs.Wpf.SharpProgressDialogWpf
+  fullName: SharpDialogs.Wpf.SharpProgressDialogWpf
+  nameWithType: SharpProgressDialogWpf
+- uid: SharpDialogs.Wpf.SharpProgressDialogWpf.#ctor(System.Windows.Window,System.String,System.String,System.Boolean,System.Boolean)
+  name: SharpProgressDialogWpf(Window?, string?, string?, bool, bool)
+  href: api/SharpDialogs.Wpf.SharpProgressDialogWpf.html#SharpDialogs_Wpf_SharpProgressDialogWpf__ctor_System_Windows_Window_System_String_System_String_System_Boolean_System_Boolean_
+  commentId: M:SharpDialogs.Wpf.SharpProgressDialogWpf.#ctor(System.Windows.Window,System.String,System.String,System.Boolean,System.Boolean)
+  name.vb: New(Window, String, String, Boolean, Boolean)
+  fullName: SharpDialogs.Wpf.SharpProgressDialogWpf.SharpProgressDialogWpf(System.Windows.Window?, string?, string?, bool, bool)
+  fullName.vb: SharpDialogs.Wpf.SharpProgressDialogWpf.New(System.Windows.Window, String, String, Boolean, Boolean)
+  nameWithType: SharpProgressDialogWpf.SharpProgressDialogWpf(Window?, string?, string?, bool, bool)
+  nameWithType.vb: SharpProgressDialogWpf.New(Window, String, String, Boolean, Boolean)
+- uid: SharpDialogs.Wpf.SharpProgressDialogWpf.#ctor*
+  name: SharpProgressDialogWpf
+  href: api/SharpDialogs.Wpf.SharpProgressDialogWpf.html#SharpDialogs_Wpf_SharpProgressDialogWpf__ctor_
+  commentId: Overload:SharpDialogs.Wpf.SharpProgressDialogWpf.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: SharpDialogs.Wpf.SharpProgressDialogWpf.SharpProgressDialogWpf
+  fullName.vb: SharpDialogs.Wpf.SharpProgressDialogWpf.New
+  nameWithType: SharpProgressDialogWpf.SharpProgressDialogWpf
+  nameWithType.vb: SharpProgressDialogWpf.New

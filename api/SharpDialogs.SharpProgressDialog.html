@@ -9,7 +9,7 @@
       <meta name="viewport" content="width=device-width">
       <meta name="title" content="Class SharpProgressDialog ">
     
-    
+    <meta name="description" content="A progress dialog.">
       <link rel="shortcut icon" href="../favicon.ico">
       <link rel="stylesheet" href="../styles/docfx.vendor.min.css">
       <link rel="stylesheet" href="../styles/docfx.css">
@@ -115,6 +115,25 @@
                           </li>
                         </ul>
                     </li>
+                    <li class="">
+                      <span class="expand-stub"></span>
+                      <a href="SharpDialogs.Wpf.html" title="SharpDialogs.Wpf" class="">SharpDialogs.Wpf</a>
+
+                        <ul class="nav level2">
+                          <li class="">
+                            <a href="SharpDialogs.Wpf.SharpFileOpenDialogWpf.html" title="SharpFileOpenDialogWpf" class="">SharpFileOpenDialogWpf</a>
+                          </li>
+                          <li class="">
+                            <a href="SharpDialogs.Wpf.SharpFileSaveDialogWpf.html" title="SharpFileSaveDialogWpf" class="">SharpFileSaveDialogWpf</a>
+                          </li>
+                          <li class="">
+                            <a href="SharpDialogs.Wpf.SharpFolderBrowserDialogWpf.html" title="SharpFolderBrowserDialogWpf" class="">SharpFolderBrowserDialogWpf</a>
+                          </li>
+                          <li class="">
+                            <a href="SharpDialogs.Wpf.SharpProgressDialogWpf.html" title="SharpProgressDialogWpf" class="">SharpProgressDialogWpf</a>
+                          </li>
+                        </ul>
+                    </li>
                   </ul>
                 </div>
               </div>
@@ -128,12 +147,14 @@
 
 
   <h1 id="SharpDialogs_SharpProgressDialog" data-uid="SharpDialogs.SharpProgressDialog" class="text-break">Class SharpProgressDialog</h1>
-  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 summary"><p>A progress dialog.</p>
+</div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
     <div class="level0"><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
     <div class="level1"><span class="xref">SharpProgressDialog</span></div>
+      <div class="level2"><a class="xref" href="SharpDialogs.Wpf.SharpProgressDialogWpf.html">SharpProgressDialogWpf</a></div>
   </div>
   <div class="implements">
     <h5>Implements</h5>
@@ -176,11 +197,12 @@
     <a href="https://github.com/JeremyAnsel/SharpDialogs/new/main/apiSpec/new?filename=SharpDialogs_SharpProgressDialog__ctor_System_IntPtr_System_String_System_String_System_Boolean_System_Boolean_.md&amp;value=---%0Auid%3A%20SharpDialogs.SharpProgressDialog.%23ctor(System.IntPtr%2CSystem.String%2CSystem.String%2CSystem.Boolean%2CSystem.Boolean)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/JeremyAnsel/SharpDialogs/blob/main/SharpDialogs/SharpDialogs/SharpProgressDialog.cs/#L11">View Source</a>
+    <a href="https://github.com/JeremyAnsel/SharpDialogs/blob/main/SharpDialogs/SharpDialogs/SharpProgressDialog.cs/#L22">View Source</a>
   </span>
   <a id="SharpDialogs_SharpProgressDialog__ctor_" data-uid="SharpDialogs.SharpProgressDialog.#ctor*"></a>
   <h4 id="SharpDialogs_SharpProgressDialog__ctor_System_IntPtr_System_String_System_String_System_Boolean_System_Boolean_" data-uid="SharpDialogs.SharpProgressDialog.#ctor(System.IntPtr,System.String,System.String,System.Boolean,System.Boolean)">SharpProgressDialog(nint, string?, string?, bool, bool)</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Creates a progress dialog.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
@@ -199,27 +221,32 @@
       <tr>
         <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.intptr">nint</a></td>
         <td><span class="parametername">hwndParent</span></td>
-        <td></td>
+        <td><p>The handle of the owner window.</p>
+</td>
       </tr>
       <tr>
         <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
         <td><span class="parametername">title</span></td>
-        <td></td>
+        <td><p>The title of the dialog.</p>
+</td>
       </tr>
       <tr>
         <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
         <td><span class="parametername">cancelMessage</span></td>
-        <td></td>
+        <td><p>The cancel message of the dialog.</p>
+</td>
       </tr>
       <tr>
         <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></td>
         <td><span class="parametername">allowCancel</span></td>
-        <td></td>
+        <td><p>Shows a cancel button.</p>
+</td>
       </tr>
       <tr>
         <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></td>
         <td><span class="parametername">showTime</span></td>
-        <td></td>
+        <td><p>Shows the progress time.</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -230,11 +257,11 @@
     <a href="https://github.com/JeremyAnsel/SharpDialogs/new/main/apiSpec/new?filename=SharpDialogs_SharpProgressDialog_Dispose.md&amp;value=---%0Auid%3A%20SharpDialogs.SharpProgressDialog.Dispose%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/JeremyAnsel/SharpDialogs/blob/main/SharpDialogs/SharpDialogs/SharpProgressDialog.cs/#L45">View Source</a>
+    <a href="https://github.com/JeremyAnsel/SharpDialogs/blob/main/SharpDialogs/SharpDialogs/SharpProgressDialog.cs/#L59">View Source</a>
   </span>
   <a id="SharpDialogs_SharpProgressDialog_Dispose_" data-uid="SharpDialogs.SharpProgressDialog.Dispose*"></a>
   <h4 id="SharpDialogs_SharpProgressDialog_Dispose" data-uid="SharpDialogs.SharpProgressDialog.Dispose">Dispose()</h4>
-  <div class="markdown level1 summary"><p>Performs application-defined tasks associated with freeing, releasing, or resetting unmanaged resources.</p>
+  <div class="markdown level1 summary"><p>Disposes the dialog.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
@@ -246,11 +273,12 @@
     <a href="https://github.com/JeremyAnsel/SharpDialogs/new/main/apiSpec/new?filename=SharpDialogs_SharpProgressDialog_HasUserCancelled.md&amp;value=---%0Auid%3A%20SharpDialogs.SharpProgressDialog.HasUserCancelled%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/JeremyAnsel/SharpDialogs/blob/main/SharpDialogs/SharpDialogs/SharpProgressDialog.cs/#L57">View Source</a>
+    <a href="https://github.com/JeremyAnsel/SharpDialogs/blob/main/SharpDialogs/SharpDialogs/SharpProgressDialog.cs/#L76">View Source</a>
   </span>
   <a id="SharpDialogs_SharpProgressDialog_HasUserCancelled_" data-uid="SharpDialogs.SharpProgressDialog.HasUserCancelled*"></a>
   <h4 id="SharpDialogs_SharpProgressDialog_HasUserCancelled" data-uid="SharpDialogs.SharpProgressDialog.HasUserCancelled">HasUserCancelled()</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Tests whether the user has cancelled the dialog.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
@@ -267,6 +295,22 @@
     <tbody>
       <tr>
         <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></td>
+        <td><p>Returns whether the user has cancelled the dialog.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.objectdisposedexception">ObjectDisposedException</a></td>
         <td></td>
       </tr>
     </tbody>
@@ -276,56 +320,105 @@
     <a href="https://github.com/JeremyAnsel/SharpDialogs/new/main/apiSpec/new?filename=SharpDialogs_SharpProgressDialog_PauseTimer.md&amp;value=---%0Auid%3A%20SharpDialogs.SharpProgressDialog.PauseTimer%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/JeremyAnsel/SharpDialogs/blob/main/SharpDialogs/SharpDialogs/SharpProgressDialog.cs/#L107">View Source</a>
+    <a href="https://github.com/JeremyAnsel/SharpDialogs/blob/main/SharpDialogs/SharpDialogs/SharpProgressDialog.cs/#L152">View Source</a>
   </span>
   <a id="SharpDialogs_SharpProgressDialog_PauseTimer_" data-uid="SharpDialogs.SharpProgressDialog.PauseTimer*"></a>
   <h4 id="SharpDialogs_SharpProgressDialog_PauseTimer" data-uid="SharpDialogs.SharpProgressDialog.PauseTimer">PauseTimer()</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Pauses the progress timer.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public void PauseTimer()</code></pre>
   </div>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.objectdisposedexception">ObjectDisposedException</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
     <a href="https://github.com/JeremyAnsel/SharpDialogs/new/main/apiSpec/new?filename=SharpDialogs_SharpProgressDialog_ResetTimer.md&amp;value=---%0Auid%3A%20SharpDialogs.SharpProgressDialog.ResetTimer%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/JeremyAnsel/SharpDialogs/blob/main/SharpDialogs/SharpDialogs/SharpProgressDialog.cs/#L97">View Source</a>
+    <a href="https://github.com/JeremyAnsel/SharpDialogs/blob/main/SharpDialogs/SharpDialogs/SharpProgressDialog.cs/#L138">View Source</a>
   </span>
   <a id="SharpDialogs_SharpProgressDialog_ResetTimer_" data-uid="SharpDialogs.SharpProgressDialog.ResetTimer*"></a>
   <h4 id="SharpDialogs_SharpProgressDialog_ResetTimer" data-uid="SharpDialogs.SharpProgressDialog.ResetTimer">ResetTimer()</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Resets the progress timer.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public void ResetTimer()</code></pre>
   </div>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.objectdisposedexception">ObjectDisposedException</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
     <a href="https://github.com/JeremyAnsel/SharpDialogs/new/main/apiSpec/new?filename=SharpDialogs_SharpProgressDialog_ResumeTimer.md&amp;value=---%0Auid%3A%20SharpDialogs.SharpProgressDialog.ResumeTimer%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/JeremyAnsel/SharpDialogs/blob/main/SharpDialogs/SharpDialogs/SharpProgressDialog.cs/#L117">View Source</a>
+    <a href="https://github.com/JeremyAnsel/SharpDialogs/blob/main/SharpDialogs/SharpDialogs/SharpProgressDialog.cs/#L166">View Source</a>
   </span>
   <a id="SharpDialogs_SharpProgressDialog_ResumeTimer_" data-uid="SharpDialogs.SharpProgressDialog.ResumeTimer*"></a>
   <h4 id="SharpDialogs_SharpProgressDialog_ResumeTimer" data-uid="SharpDialogs.SharpProgressDialog.ResumeTimer">ResumeTimer()</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Resumes the progress timer.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public void ResumeTimer()</code></pre>
   </div>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.objectdisposedexception">ObjectDisposedException</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
     <a href="https://github.com/JeremyAnsel/SharpDialogs/new/main/apiSpec/new?filename=SharpDialogs_SharpProgressDialog_SetLine1_System_String_System_Boolean_.md&amp;value=---%0Auid%3A%20SharpDialogs.SharpProgressDialog.SetLine1(System.String%2CSystem.Boolean)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/JeremyAnsel/SharpDialogs/blob/main/SharpDialogs/SharpDialogs/SharpProgressDialog.cs/#L77">View Source</a>
+    <a href="https://github.com/JeremyAnsel/SharpDialogs/blob/main/SharpDialogs/SharpDialogs/SharpProgressDialog.cs/#L108">View Source</a>
   </span>
   <a id="SharpDialogs_SharpProgressDialog_SetLine1_" data-uid="SharpDialogs.SharpProgressDialog.SetLine1*"></a>
   <h4 id="SharpDialogs_SharpProgressDialog_SetLine1_System_String_System_Boolean_" data-uid="SharpDialogs.SharpProgressDialog.SetLine1(System.String,System.Boolean)">SetLine1(string, bool)</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Sets the text of the first line of the dialog.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
@@ -344,11 +437,28 @@
       <tr>
         <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
         <td><span class="parametername">text</span></td>
-        <td></td>
+        <td><p>The text.</p>
+</td>
       </tr>
       <tr>
         <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></td>
         <td><span class="parametername">compactPath</span></td>
+        <td><p>A value indicating whether the line is a path to compact.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.objectdisposedexception">ObjectDisposedException</a></td>
         <td></td>
       </tr>
     </tbody>
@@ -358,11 +468,12 @@
     <a href="https://github.com/JeremyAnsel/SharpDialogs/new/main/apiSpec/new?filename=SharpDialogs_SharpProgressDialog_SetLine2_System_String_System_Boolean_.md&amp;value=---%0Auid%3A%20SharpDialogs.SharpProgressDialog.SetLine2(System.String%2CSystem.Boolean)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/JeremyAnsel/SharpDialogs/blob/main/SharpDialogs/SharpDialogs/SharpProgressDialog.cs/#L87">View Source</a>
+    <a href="https://github.com/JeremyAnsel/SharpDialogs/blob/main/SharpDialogs/SharpDialogs/SharpProgressDialog.cs/#L124">View Source</a>
   </span>
   <a id="SharpDialogs_SharpProgressDialog_SetLine2_" data-uid="SharpDialogs.SharpProgressDialog.SetLine2*"></a>
   <h4 id="SharpDialogs_SharpProgressDialog_SetLine2_System_String_System_Boolean_" data-uid="SharpDialogs.SharpProgressDialog.SetLine2(System.String,System.Boolean)">SetLine2(string, bool)</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Sets the text of the second line of the dialog.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
@@ -381,11 +492,28 @@
       <tr>
         <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
         <td><span class="parametername">text</span></td>
-        <td></td>
+        <td><p>The text.</p>
+</td>
       </tr>
       <tr>
         <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></td>
         <td><span class="parametername">compactPath</span></td>
+        <td><p>A value indicating whether the line is a path to compact.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.objectdisposedexception">ObjectDisposedException</a></td>
         <td></td>
       </tr>
     </tbody>
@@ -395,11 +523,12 @@
     <a href="https://github.com/JeremyAnsel/SharpDialogs/new/main/apiSpec/new?filename=SharpDialogs_SharpProgressDialog_SetProgress_System_UInt64_System_UInt64_.md&amp;value=---%0Auid%3A%20SharpDialogs.SharpProgressDialog.SetProgress(System.UInt64%2CSystem.UInt64)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/JeremyAnsel/SharpDialogs/blob/main/SharpDialogs/SharpDialogs/SharpProgressDialog.cs/#L67">View Source</a>
+    <a href="https://github.com/JeremyAnsel/SharpDialogs/blob/main/SharpDialogs/SharpDialogs/SharpProgressDialog.cs/#L92">View Source</a>
   </span>
   <a id="SharpDialogs_SharpProgressDialog_SetProgress_" data-uid="SharpDialogs.SharpProgressDialog.SetProgress*"></a>
   <h4 id="SharpDialogs_SharpProgressDialog_SetProgress_System_UInt64_System_UInt64_" data-uid="SharpDialogs.SharpProgressDialog.SetProgress(System.UInt64,System.UInt64)">SetProgress(ulong, ulong)</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Sets the progress of the dialog.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
@@ -418,11 +547,28 @@
       <tr>
         <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint64">ulong</a></td>
         <td><span class="parametername">completed</span></td>
-        <td></td>
+        <td><p>The completed value.</p>
+</td>
       </tr>
       <tr>
         <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint64">ulong</a></td>
         <td><span class="parametername">total</span></td>
+        <td><p>The total value.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.objectdisposedexception">ObjectDisposedException</a></td>
         <td></td>
       </tr>
     </tbody>
@@ -443,7 +589,7 @@
                     <a href="https://github.com/JeremyAnsel/SharpDialogs/new/main/apiSpec/new?filename=SharpDialogs_SharpProgressDialog.md&amp;value=---%0Auid%3A%20SharpDialogs.SharpProgressDialog%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Edit this page</a>
                   </li>
                   <li>
-                    <a href="https://github.com/JeremyAnsel/SharpDialogs/blob/main/SharpDialogs/SharpDialogs/SharpProgressDialog.cs/#L7" class="contribution-link">View Source</a>
+                    <a href="https://github.com/JeremyAnsel/SharpDialogs/blob/main/SharpDialogs/SharpDialogs/SharpProgressDialog.cs/#L10" class="contribution-link">View Source</a>
                   </li>
                 </ul>
               </div>

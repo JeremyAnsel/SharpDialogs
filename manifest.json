@@ -22,7 +22,7 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "SharpDialogs.SharpDialogFilter",
-      "Summary": null
+      "Summary": "<p sourcefile=\"api/SharpDialogs.SharpDialogFilter.yml\" sourcestartlinenumber=\"1\">A files filter for the dialogs.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -36,7 +36,7 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "SharpDialogs.SharpDialogHelpers",
-      "Summary": null
+      "Summary": "<p sourcefile=\"api/SharpDialogs.SharpDialogHelpers.yml\" sourcestartlinenumber=\"1\">Helper methods for the dialogs.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -50,7 +50,7 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "SharpDialogs.SharpFileOpenDialog",
-      "Summary": null
+      "Summary": "<p sourcefile=\"api/SharpDialogs.SharpFileOpenDialog.yml\" sourcestartlinenumber=\"1\">A file open dialog.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -64,7 +64,7 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "SharpDialogs.SharpFileSaveDialog",
-      "Summary": null
+      "Summary": "<p sourcefile=\"api/SharpDialogs.SharpFileSaveDialog.yml\" sourcestartlinenumber=\"1\">A file save dialog.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -78,7 +78,7 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "SharpDialogs.SharpFolderBrowserDialog",
-      "Summary": null
+      "Summary": "<p sourcefile=\"api/SharpDialogs.SharpFolderBrowserDialog.yml\" sourcestartlinenumber=\"1\">A folder browser dialog.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -92,6 +92,76 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "SharpDialogs.SharpProgressDialog",
+      "Summary": "<p sourcefile=\"api/SharpDialogs.SharpProgressDialog.yml\" sourcestartlinenumber=\"1\">A progress dialog.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpDialogs.Wpf.SharpFileOpenDialogWpf.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpDialogs.Wpf.SharpFileOpenDialogWpf.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SharpDialogs.Wpf.SharpFileOpenDialogWpf",
+      "Summary": "<p sourcefile=\"api/SharpDialogs.Wpf.SharpFileOpenDialogWpf.yml\" sourcestartlinenumber=\"1\">A file open dialog for WPF.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpDialogs.Wpf.SharpFileSaveDialogWpf.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpDialogs.Wpf.SharpFileSaveDialogWpf.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SharpDialogs.Wpf.SharpFileSaveDialogWpf",
+      "Summary": "<p sourcefile=\"api/SharpDialogs.Wpf.SharpFileSaveDialogWpf.yml\" sourcestartlinenumber=\"1\">A file save dialog for WPF.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpDialogs.Wpf.SharpFolderBrowserDialogWpf.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpDialogs.Wpf.SharpFolderBrowserDialogWpf.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SharpDialogs.Wpf.SharpFolderBrowserDialogWpf",
+      "Summary": "<p sourcefile=\"api/SharpDialogs.Wpf.SharpFolderBrowserDialogWpf.yml\" sourcestartlinenumber=\"1\">A folder browser dialog for WPF.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpDialogs.Wpf.SharpProgressDialogWpf.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpDialogs.Wpf.SharpProgressDialogWpf.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SharpDialogs.Wpf.SharpProgressDialogWpf",
+      "Summary": "<p sourcefile=\"api/SharpDialogs.Wpf.SharpProgressDialogWpf.yml\" sourcestartlinenumber=\"1\">A progress dialog for WPF.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpDialogs.Wpf.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpDialogs.Wpf.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SharpDialogs.Wpf",
       "Summary": null
     },
     {

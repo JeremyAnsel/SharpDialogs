@@ -5,11 +5,11 @@
   <head>
     <meta charset="utf-8">
       <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-      <title>Class SharpFileSaveDialog </title>
+      <title>Class SharpProgressDialogWpf </title>
       <meta name="viewport" content="width=device-width">
-      <meta name="title" content="Class SharpFileSaveDialog ">
+      <meta name="title" content="Class SharpProgressDialogWpf ">
     
-    <meta name="description" content="A file save dialog.">
+    <meta name="description" content="A progress dialog for WPF.">
       <link rel="shortcut icon" href="../favicon.ico">
       <link rel="stylesheet" href="../styles/docfx.vendor.min.css">
       <link rel="stylesheet" href="../styles/docfx.css">
@@ -104,8 +104,8 @@
                           <li class="">
                             <a href="SharpDialogs.SharpFileOpenDialog.html" title="SharpFileOpenDialog" class="">SharpFileOpenDialog</a>
                           </li>
-                          <li class="active">
-                            <a href="SharpDialogs.SharpFileSaveDialog.html" title="SharpFileSaveDialog" class="active">SharpFileSaveDialog</a>
+                          <li class="">
+                            <a href="SharpDialogs.SharpFileSaveDialog.html" title="SharpFileSaveDialog" class="">SharpFileSaveDialog</a>
                           </li>
                           <li class="">
                             <a href="SharpDialogs.SharpFolderBrowserDialog.html" title="SharpFolderBrowserDialog" class="">SharpFolderBrowserDialog</a>
@@ -129,8 +129,8 @@
                           <li class="">
                             <a href="SharpDialogs.Wpf.SharpFolderBrowserDialogWpf.html" title="SharpFolderBrowserDialogWpf" class="">SharpFolderBrowserDialogWpf</a>
                           </li>
-                          <li class="">
-                            <a href="SharpDialogs.Wpf.SharpProgressDialogWpf.html" title="SharpProgressDialogWpf" class="">SharpProgressDialogWpf</a>
+                          <li class="active">
+                            <a href="SharpDialogs.Wpf.SharpProgressDialogWpf.html" title="SharpProgressDialogWpf" class="active">SharpProgressDialogWpf</a>
                           </li>
                         </ul>
                     </li>
@@ -142,21 +142,50 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="SharpDialogs.SharpFileSaveDialog">
+            <article class="content wrap" id="_content" data-uid="SharpDialogs.Wpf.SharpProgressDialogWpf">
 
 
 
-  <h1 id="SharpDialogs_SharpFileSaveDialog" data-uid="SharpDialogs.SharpFileSaveDialog" class="text-break">Class SharpFileSaveDialog</h1>
-  <div class="markdown level0 summary"><p>A file save dialog.</p>
+  <h1 id="SharpDialogs_Wpf_SharpProgressDialogWpf" data-uid="SharpDialogs.Wpf.SharpProgressDialogWpf" class="text-break">Class SharpProgressDialogWpf</h1>
+  <div class="markdown level0 summary"><p>A progress dialog for WPF.</p>
 </div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
     <div class="level0"><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
-    <div class="level1"><span class="xref">SharpFileSaveDialog</span></div>
+    <div class="level1"><a class="xref" href="SharpDialogs.SharpProgressDialog.html">SharpProgressDialog</a></div>
+    <div class="level2"><span class="xref">SharpProgressDialogWpf</span></div>
+  </div>
+  <div class="implements">
+    <h5>Implements</h5>
+    <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.idisposable">IDisposable</a></div>
   </div>
   <div class="inheritedMembers">
     <h5>Inherited Members</h5>
+    <div>
+      <a class="xref" href="SharpDialogs.SharpProgressDialog.html#SharpDialogs_SharpProgressDialog_Dispose">SharpProgressDialog.Dispose()</a>
+    </div>
+    <div>
+      <a class="xref" href="SharpDialogs.SharpProgressDialog.html#SharpDialogs_SharpProgressDialog_HasUserCancelled">SharpProgressDialog.HasUserCancelled()</a>
+    </div>
+    <div>
+      <a class="xref" href="SharpDialogs.SharpProgressDialog.html#SharpDialogs_SharpProgressDialog_SetProgress_System_UInt64_System_UInt64_">SharpProgressDialog.SetProgress(ulong, ulong)</a>
+    </div>
+    <div>
+      <a class="xref" href="SharpDialogs.SharpProgressDialog.html#SharpDialogs_SharpProgressDialog_SetLine1_System_String_System_Boolean_">SharpProgressDialog.SetLine1(string, bool)</a>
+    </div>
+    <div>
+      <a class="xref" href="SharpDialogs.SharpProgressDialog.html#SharpDialogs_SharpProgressDialog_SetLine2_System_String_System_Boolean_">SharpProgressDialog.SetLine2(string, bool)</a>
+    </div>
+    <div>
+      <a class="xref" href="SharpDialogs.SharpProgressDialog.html#SharpDialogs_SharpProgressDialog_ResetTimer">SharpProgressDialog.ResetTimer()</a>
+    </div>
+    <div>
+      <a class="xref" href="SharpDialogs.SharpProgressDialog.html#SharpDialogs_SharpProgressDialog_PauseTimer">SharpProgressDialog.PauseTimer()</a>
+    </div>
+    <div>
+      <a class="xref" href="SharpDialogs.SharpProgressDialog.html#SharpDialogs_SharpProgressDialog_ResumeTimer">SharpProgressDialog.ResumeTimer()</a>
+    </div>
     <div>
       <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)">object.Equals(object)</a>
     </div>
@@ -179,29 +208,29 @@
       <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.tostring">object.ToString()</a>
     </div>
   </div>
-  <h6><strong>Namespace</strong>: <a class="xref" href="SharpDialogs.html">SharpDialogs</a></h6>
-  <h6><strong>Assembly</strong>: SharpDialogs.dll</h6>
-  <h5 id="SharpDialogs_SharpFileSaveDialog_syntax">Syntax</h5>
+  <h6><strong>Namespace</strong>: <a class="xref" href="SharpDialogs.html">SharpDialogs</a>.<a class="xref" href="SharpDialogs.Wpf.html">Wpf</a></h6>
+  <h6><strong>Assembly</strong>: SharpDialogs.Wpf.dll</h6>
+  <h5 id="SharpDialogs_Wpf_SharpProgressDialogWpf_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static class SharpFileSaveDialog</code></pre>
+    <pre><code class="lang-csharp hljs">public class SharpProgressDialogWpf : SharpProgressDialog, IDisposable</code></pre>
   </div>
-  <h3 id="methods">Methods
+  <h3 id="constructors">Constructors
 </h3>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/JeremyAnsel/SharpDialogs/new/main/apiSpec/new?filename=SharpDialogs_SharpFileSaveDialog_Show_System_IntPtr_System_String_System_String_System_String_System_Collections_Generic_IReadOnlyCollection_SharpDialogs_SharpDialogFilter__System_Int32_.md&amp;value=---%0Auid%3A%20SharpDialogs.SharpFileSaveDialog.Show(System.IntPtr%2CSystem.String%2CSystem.String%2CSystem.String%2CSystem.Collections.Generic.IReadOnlyCollection%7BSharpDialogs.SharpDialogFilter%7D%2CSystem.Int32)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+    <a href="https://github.com/JeremyAnsel/SharpDialogs/new/main/apiSpec/new?filename=SharpDialogs_Wpf_SharpProgressDialogWpf__ctor_System_Windows_Window_System_String_System_String_System_Boolean_System_Boolean_.md&amp;value=---%0Auid%3A%20SharpDialogs.Wpf.SharpProgressDialogWpf.%23ctor(System.Windows.Window%2CSystem.String%2CSystem.String%2CSystem.Boolean%2CSystem.Boolean)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/JeremyAnsel/SharpDialogs/blob/main/SharpDialogs/SharpDialogs/SharpFileSaveDialog.cs/#L47">View Source</a>
+    <a href="https://github.com/JeremyAnsel/SharpDialogs/blob/main/SharpDialogs/SharpDialogs.Wpf/SharpProgressDialogWpf.cs/#L18">View Source</a>
   </span>
-  <a id="SharpDialogs_SharpFileSaveDialog_Show_" data-uid="SharpDialogs.SharpFileSaveDialog.Show*"></a>
-  <h4 id="SharpDialogs_SharpFileSaveDialog_Show_System_IntPtr_System_String_System_String_System_String_System_Collections_Generic_IReadOnlyCollection_SharpDialogs_SharpDialogFilter__System_Int32_" data-uid="SharpDialogs.SharpFileSaveDialog.Show(System.IntPtr,System.String,System.String,System.String,System.Collections.Generic.IReadOnlyCollection{SharpDialogs.SharpDialogFilter},System.Int32)">Show(nint, string?, string?, string?, IReadOnlyCollection&lt;SharpDialogFilter&gt;?, int)</h4>
-  <div class="markdown level1 summary"><p>Shows a dialog to select a save filename.</p>
+  <a id="SharpDialogs_Wpf_SharpProgressDialogWpf__ctor_" data-uid="SharpDialogs.Wpf.SharpProgressDialogWpf.#ctor*"></a>
+  <h4 id="SharpDialogs_Wpf_SharpProgressDialogWpf__ctor_System_Windows_Window_System_String_System_String_System_Boolean_System_Boolean_" data-uid="SharpDialogs.Wpf.SharpProgressDialogWpf.#ctor(System.Windows.Window,System.String,System.String,System.Boolean,System.Boolean)">SharpProgressDialogWpf(Window?, string?, string?, bool, bool)</h4>
+  <div class="markdown level1 summary"><p>Creates a progress dialog.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static string? Show(nint hwndOwner, string? title = null, string? initialDirectory = null, string? defaultFileName = null, IReadOnlyCollection&lt;SharpDialogFilter&gt;? filters = null, int selectedFilterIndex = -1)</code></pre>
+    <pre><code class="lang-csharp hljs">public SharpProgressDialogWpf(Window? owner, string? title, string? cancelMessage = null, bool allowCancel = true, bool showTime = true)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-condensed">
@@ -214,9 +243,9 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.intptr">nint</a></td>
-        <td><span class="parametername">hwndOwner</span></td>
-        <td><p>The handle of the onwer window.</p>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.window">Window</a></td>
+        <td><span class="parametername">owner</span></td>
+        <td><p>The owner window.</p>
 </td>
       </tr>
       <tr>
@@ -227,126 +256,28 @@
       </tr>
       <tr>
         <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
-        <td><span class="parametername">initialDirectory</span></td>
-        <td><p>The initial directory.</p>
+        <td><span class="parametername">cancelMessage</span></td>
+        <td><p>The cancel message of the dialog.</p>
 </td>
       </tr>
       <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
-        <td><span class="parametername">defaultFileName</span></td>
-        <td><p>The default filename</p>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></td>
+        <td><span class="parametername">allowCancel</span></td>
+        <td><p>Shows a cancel button.</p>
 </td>
       </tr>
       <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ireadonlycollection-1">IReadOnlyCollection</a>&lt;<a class="xref" href="SharpDialogs.SharpDialogFilter.html">SharpDialogFilter</a>&gt;</td>
-        <td><span class="parametername">filters</span></td>
-        <td><p>The files filters.</p>
-</td>
-      </tr>
-      <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></td>
-        <td><span class="parametername">selectedFilterIndex</span></td>
-        <td><p>The index of the selected filter.</p>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></td>
+        <td><span class="parametername">showTime</span></td>
+        <td><p>Shows the progress time.</p>
 </td>
       </tr>
     </tbody>
   </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
-        <td><p>Returns the selected save filename.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/JeremyAnsel/SharpDialogs/new/main/apiSpec/new?filename=SharpDialogs_SharpFileSaveDialog_Show_System_IntPtr_System_String_System_String_System_String_System_String_System_Int32_.md&amp;value=---%0Auid%3A%20SharpDialogs.SharpFileSaveDialog.Show(System.IntPtr%2CSystem.String%2CSystem.String%2CSystem.String%2CSystem.String%2CSystem.Int32)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/JeremyAnsel/SharpDialogs/blob/main/SharpDialogs/SharpDialogs/SharpFileSaveDialog.cs/#L24">View Source</a>
-  </span>
-  <a id="SharpDialogs_SharpFileSaveDialog_Show_" data-uid="SharpDialogs.SharpFileSaveDialog.Show*"></a>
-  <h4 id="SharpDialogs_SharpFileSaveDialog_Show_System_IntPtr_System_String_System_String_System_String_System_String_System_Int32_" data-uid="SharpDialogs.SharpFileSaveDialog.Show(System.IntPtr,System.String,System.String,System.String,System.String,System.Int32)">Show(nint, string?, string?, string?, string, int)</h4>
-  <div class="markdown level1 summary"><p>Shows a dialog to select a save filename.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="declaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static string? Show(nint hwndOwner, string? title, string? initialDirectory, string? defaultFileName, string windowsFilter, int selectedFilterIndex)</code></pre>
+  <h3 id="implements">Implements</h3>
+  <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.idisposable">IDisposable</a>
   </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.intptr">nint</a></td>
-        <td><span class="parametername">hwndOwner</span></td>
-        <td><p>The handle of the onwer window.</p>
-</td>
-      </tr>
-      <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
-        <td><span class="parametername">title</span></td>
-        <td><p>The title of the dialog.</p>
-</td>
-      </tr>
-      <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
-        <td><span class="parametername">initialDirectory</span></td>
-        <td><p>The initial directory.</p>
-</td>
-      </tr>
-      <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
-        <td><span class="parametername">defaultFileName</span></td>
-        <td><p>The default filename</p>
-</td>
-      </tr>
-      <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
-        <td><span class="parametername">windowsFilter</span></td>
-        <td><p>The files filter.</p>
-</td>
-      </tr>
-      <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></td>
-        <td><span class="parametername">selectedFilterIndex</span></td>
-        <td><p>The index of the selected filter.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
-        <td><p>Returns the selected save filename.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
 
 </article>
           </div>
@@ -356,10 +287,10 @@
               <div class="contribution">
                 <ul class="nav">
                   <li>
-                    <a href="https://github.com/JeremyAnsel/SharpDialogs/new/main/apiSpec/new?filename=SharpDialogs_SharpFileSaveDialog.md&amp;value=---%0Auid%3A%20SharpDialogs.SharpFileSaveDialog%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Edit this page</a>
+                    <a href="https://github.com/JeremyAnsel/SharpDialogs/new/main/apiSpec/new?filename=SharpDialogs_Wpf_SharpProgressDialogWpf.md&amp;value=---%0Auid%3A%20SharpDialogs.Wpf.SharpProgressDialogWpf%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Edit this page</a>
                   </li>
                   <li>
-                    <a href="https://github.com/JeremyAnsel/SharpDialogs/blob/main/SharpDialogs/SharpDialogs/SharpFileSaveDialog.cs/#L12" class="contribution-link">View Source</a>
+                    <a href="https://github.com/JeremyAnsel/SharpDialogs/blob/main/SharpDialogs/SharpDialogs.Wpf/SharpProgressDialogWpf.cs/#L8" class="contribution-link">View Source</a>
                   </li>
                 </ul>
               </div>
