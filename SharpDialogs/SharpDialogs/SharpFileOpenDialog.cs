@@ -6,8 +6,21 @@ using System.Runtime.InteropServices;
 
 namespace SharpDialogs;
 
+/// <summary>
+/// A file open dialog.
+/// </summary>
 public static class SharpFileOpenDialog
 {
+    /// <summary>
+    /// Shows a dialog to select a single open filename.
+    /// </summary>
+    /// <param name="hwndOwner">The handle of the onwer window.</param>
+    /// <param name="title">The title of the dialog.</param>
+    /// <param name="initialDirectory">The initial directory.</param>
+    /// <param name="defaultFileName">The default filename.</param>
+    /// <param name="windowsFilter">The files filter.</param>
+    /// <param name="selectedFilterIndex">The index of the selected filter.</param>
+    /// <returns>Returns the selected open filename.</returns>
     public static string? ShowSingleSelect(
         IntPtr hwndOwner,
         string? title,
@@ -27,6 +40,16 @@ public static class SharpFileOpenDialog
         return null;
     }
 
+    /// <summary>
+    /// Shows a dialog to select a single open filename.
+    /// </summary>
+    /// <param name="hwndOwner">The handle of the onwer window.</param>
+    /// <param name="title">The title of the dialog.</param>
+    /// <param name="initialDirectory">The initial directory.</param>
+    /// <param name="defaultFileName">The default filename.</param>
+    /// <param name="filters">The files filters.</param>
+    /// <param name="selectedFilterIndex">The index of the selected filter.</param>
+    /// <returns>Returns the selected open filename.</returns>
     public static string? ShowSingleSelect(
         IntPtr hwndOwner,
         string? title = null,
@@ -45,6 +68,16 @@ public static class SharpFileOpenDialog
         return null;
     }
 
+    /// <summary>
+    /// Shows a dialog to select multiple open filenames.
+    /// </summary>
+    /// <param name="hwndOwner">The handle of the onwer window.</param>
+    /// <param name="title">The title of the dialog.</param>
+    /// <param name="initialDirectory">The initial directory.</param>
+    /// <param name="defaultFileName">The default filename.</param>
+    /// <param name="windowsFilter">The files filter.</param>
+    /// <param name="selectedFilterIndex">The index of the selected filter.</param>
+    /// <returns>Returns selected open filenames.</returns>
     public static IReadOnlyList<string>? ShowMultiSelect(
         IntPtr hwndOwner,
         string? title,
@@ -58,6 +91,16 @@ public static class SharpFileOpenDialog
         return result;
     }
 
+    /// <summary>
+    /// Shows a dialog to select multiple open filenames.
+    /// </summary>
+    /// <param name="hwndOwner">The handle of the onwer window.</param>
+    /// <param name="title">The title of the dialog.</param>
+    /// <param name="initialDirectory">The initial directory.</param>
+    /// <param name="defaultFileName">The default filename.</param>
+    /// <param name="filters">The files filter.</param>
+    /// <param name="selectedFilterIndex">The index of the selected filter.</param>
+    /// <returns>Returns selected open filenames.</returns>
     public static IReadOnlyList<string>? ShowMultiSelect(
         IntPtr hwndOwner,
         string? title = null,

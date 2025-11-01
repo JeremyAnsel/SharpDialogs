@@ -3,13 +3,28 @@ using System.Text;
 
 namespace SharpDialogs;
 
+/// <summary>
+/// A files filter for the dialogs.
+/// </summary>
 public sealed class SharpDialogFilter
 {
+    /// <summary>
+    /// Creates a dialog file filter.
+    /// </summary>
+    /// <param name="name">The name.</param>
+    /// <param name="extensions">The extensions.</param>
     public SharpDialogFilter(string name, params string[] extensions)
         : this(name, (IEnumerable<string>)extensions)
     {
     }
 
+    /// <summary>
+    /// Creates a dialog file filter.
+    /// </summary>
+    /// <param name="name">The names.</param>
+    /// <param name="extensions">The extensions.</param>
+    /// <exception cref="ArgumentNullException"></exception>
+    /// <exception cref="ArgumentOutOfRangeException"></exception>
     public SharpDialogFilter(string name, IEnumerable<string> extensions)
     {
         Name = name.Trim();
@@ -29,10 +44,20 @@ public sealed class SharpDialogFilter
         }
     }
 
+    /// <summary>
+    /// Gets the name of the filter.
+    /// </summary>
     public string Name { get; }
 
+    /// <summary>
+    /// Gets the extensions of the filter.
+    /// </summary>
     public IReadOnlyList<string> Extensions { get; }
 
+    /// <summary>
+    /// Returns the filter as a string.
+    /// </summary>
+    /// <returns></returns>
     public override string ToString()
     {
         var sb = new StringBuilder();
@@ -57,6 +82,11 @@ public sealed class SharpDialogFilter
         return sb.ToString();
     }
 
+    /// <summary>
+    /// Creates filters from a string.
+    /// </summary>
+    /// <param name="windowsFilter">The filter string.</param>
+    /// <returns>Returns the filters.</returns>
     public static IReadOnlyList<SharpDialogFilter> ParseWindowsFilter(string windowsFilter)
     {
         if (string.IsNullOrWhiteSpace(windowsFilter))

@@ -6,8 +6,21 @@ using System.Runtime.InteropServices;
 
 namespace SharpDialogs;
 
+/// <summary>
+/// A file save dialog.
+/// </summary>
 public static class SharpFileSaveDialog
 {
+    /// <summary>
+    /// Shows a dialog to select a save filename.
+    /// </summary>
+    /// <param name="hwndOwner">The handle of the onwer window.</param>
+    /// <param name="title">The title of the dialog.</param>
+    /// <param name="initialDirectory">The initial directory.</param>
+    /// <param name="defaultFileName">The default filename</param>
+    /// <param name="windowsFilter">The files filter.</param>
+    /// <param name="selectedFilterIndex">The index of the selected filter.</param>
+    /// <returns>Returns the selected save filename.</returns>
     public static string? Show(
         IntPtr hwndOwner,
         string? title,
@@ -21,6 +34,16 @@ public static class SharpFileSaveDialog
         return result;
     }
 
+    /// <summary>
+    /// Shows a dialog to select a save filename.
+    /// </summary>
+    /// <param name="hwndOwner">The handle of the onwer window.</param>
+    /// <param name="title">The title of the dialog.</param>
+    /// <param name="initialDirectory">The initial directory.</param>
+    /// <param name="defaultFileName">The default filename</param>
+    /// <param name="filters">The files filters.</param>
+    /// <param name="selectedFilterIndex">The index of the selected filter.</param>
+    /// <returns>Returns the selected save filename.</returns>
     public static string? Show(
         IntPtr hwndOwner,
         string? title = null,

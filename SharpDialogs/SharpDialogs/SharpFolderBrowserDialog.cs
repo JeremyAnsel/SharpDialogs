@@ -5,8 +5,18 @@ using System.Runtime.InteropServices;
 
 namespace SharpDialogs;
 
+/// <summary>
+/// A folder browser dialog.
+/// </summary>
 public static class SharpFolderBrowserDialog
 {
+    /// <summary>
+    /// Shows a dialog to select a single folder.
+    /// </summary>
+    /// <param name="hwndOwner">The handle of the owner window.</param>
+    /// <param name="title">The title of the dialog.</param>
+    /// <param name="initialDirectory">The initial directory.</param>
+    /// <returns>Returns the selected folder.</returns>
     public static string? ShowSingleSelect(
         IntPtr hwndOwner,
         string? title = null,
@@ -22,6 +32,13 @@ public static class SharpFolderBrowserDialog
         return null;
     }
 
+    /// <summary>
+    /// Shows a dialog to select multiple folders.
+    /// </summary>
+    /// <param name="hwndOwner">The handle of the owner window.</param>
+    /// <param name="title">The title of the dialog.</param>
+    /// <param name="initialDirectory">The initial directory.</param>
+    /// <returns>Returns the selected folders.</returns>
     public static IReadOnlyList<string>? ShowMultiSelect(
         IntPtr hwndOwner,
         string? title = null,
