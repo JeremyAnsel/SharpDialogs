@@ -78,3 +78,12 @@ for (uint index = 0; index < total; index++)
     dialog.SetProgress(complete, total);
 }
 ```
+
+## `SharpInputBox`:
+
+To prompt a InputBox dialog, use the `SharpInputBox` static class.
+```csharp
+using SharpDialogs;
+
+string text = SharpInputBox.Show("Enter a message", "Title", "Default response");
+```

@@ -14,19 +14,23 @@
     <EmbedUntrackedSources>true</EmbedUntrackedSources>
     <ContinuousIntegrationBuild Condition="'$(CI)' == 'True'">true</ContinuousIntegrationBuild>
     <Version>1.0.0</Version>
-    <Description>A .Net library for win32 dialogs. Include FileOpenDialog, FileSaveDialog, FolderBrowserDialog, ProgressDialog.</Description>
+    <Description>A .Net library for win32 dialogs. Include FileOpenDialog, FileSaveDialog, FolderBrowserDialog, ProgressDialog, InputBox.</Description>
     <Authors>Jérémy Ansel</Authors>
     <Company>Jérémy Ansel</Company>
     <Copyright>Copyright Jérémy Ansel © 2025</Copyright>
     <PackageLicenseFile>LICENSE</PackageLicenseFile>
     <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
     <PackageReadmeFile>README.md</PackageReadmeFile>
-    <PackageTags>Win32 Shell UI Dialog File FileOpen OpenFile Open FileOpenDialog FileSave SaveFile Save FileSaveDialog FolderBrowser Folder Browser FolderBrowserDialog Progress Timer ProgressDialog .Net</PackageTags>
+    <PackageTags>Win32 Shell UI Dialog File FileOpen OpenFile Open FileOpenDialog FileSave SaveFile Save FileSaveDialog FolderBrowser Folder Browser FolderBrowserDialog Progress Timer ProgressDialog InputBox .Net</PackageTags>
     <PackageProjectUrl>https://github.com/JeremyAnsel/SharpDialogs</PackageProjectUrl>
     <EnableNETAnalyzers>true</EnableNETAnalyzers>
     <NoWarn>CA1416</NoWarn>
   </PropertyGroup>
 
+  <PropertyGroup Condition="'$(TargetFramework)' == 'net48'">
+    <UseWindowsForms>true</UseWindowsForms>
+  </PropertyGroup>
+  
   <ItemGroup>
     <Using Remove="System.Net.Http" />
   </ItemGroup>
@@ -40,6 +44,10 @@
       <Pack>True</Pack>
       <PackagePath></PackagePath>
     </None>
+  </ItemGroup>
+
+  <ItemGroup Condition="'$(TargetFramework)' == 'net48'">
+    <Reference Include="Microsoft.VisualBasic" />
   </ItemGroup>
 
   <ItemGroup>
