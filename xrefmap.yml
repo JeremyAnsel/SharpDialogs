@@ -259,6 +259,28 @@ references:
   isSpec: "True"
   fullName: SharpDialogs.SharpFolderBrowserDialog.ShowSingleSelect
   nameWithType: SharpFolderBrowserDialog.ShowSingleSelect
+- uid: SharpDialogs.SharpInputBox
+  name: SharpInputBox
+  href: api/SharpDialogs.SharpInputBox.html
+  commentId: T:SharpDialogs.SharpInputBox
+  fullName: SharpDialogs.SharpInputBox
+  nameWithType: SharpInputBox
+- uid: SharpDialogs.SharpInputBox.Show(System.String,System.String,System.String,System.Int32,System.Int32)
+  name: Show(string, string, string, int, int)
+  href: api/SharpDialogs.SharpInputBox.html#SharpDialogs_SharpInputBox_Show_System_String_System_String_System_String_System_Int32_System_Int32_
+  commentId: M:SharpDialogs.SharpInputBox.Show(System.String,System.String,System.String,System.Int32,System.Int32)
+  name.vb: Show(String, String, String, Integer, Integer)
+  fullName: SharpDialogs.SharpInputBox.Show(string, string, string, int, int)
+  fullName.vb: SharpDialogs.SharpInputBox.Show(String, String, String, Integer, Integer)
+  nameWithType: SharpInputBox.Show(string, string, string, int, int)
+  nameWithType.vb: SharpInputBox.Show(String, String, String, Integer, Integer)
+- uid: SharpDialogs.SharpInputBox.Show*
+  name: Show
+  href: api/SharpDialogs.SharpInputBox.html#SharpDialogs_SharpInputBox_Show_
+  commentId: Overload:SharpDialogs.SharpInputBox.Show
+  isSpec: "True"
+  fullName: SharpDialogs.SharpInputBox.Show
+  nameWithType: SharpInputBox.Show
 - uid: SharpDialogs.SharpProgressDialog
   name: SharpProgressDialog
   href: api/SharpDialogs.SharpProgressDialog.html

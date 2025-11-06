@@ -24,6 +24,11 @@
     "title": "Class SharpFolderBrowserDialog",
     "summary": "Class SharpFolderBrowserDialog A folder browser dialog. Inheritance object SharpFolderBrowserDialog Inherited Members object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Namespace: SharpDialogs Assembly: SharpDialogs.dll Syntax public static class SharpFolderBrowserDialog Methods | Edit this page View Source ShowMultiSelect(nint, string?, string?) Shows a dialog to select multiple folders. Declaration public static IReadOnlyList<string>? ShowMultiSelect(nint hwndOwner, string? title = null, string? initialDirectory = null) Parameters Type Name Description nint hwndOwner The handle of the owner window. string title The title of the dialog. string initialDirectory The initial directory. Returns Type Description IReadOnlyList<string> Returns the selected folders. | Edit this page View Source ShowSingleSelect(nint, string?, string?) Shows a dialog to select a single folder. Declaration public static string? ShowSingleSelect(nint hwndOwner, string? title = null, string? initialDirectory = null) Parameters Type Name Description nint hwndOwner The handle of the owner window. string title The title of the dialog. string initialDirectory The initial directory. Returns Type Description string Returns the selected folder."
   },
+  "api/SharpDialogs.SharpInputBox.html": {
+    "href": "api/SharpDialogs.SharpInputBox.html",
+    "title": "Class SharpInputBox",
+    "summary": "Class SharpInputBox A prompt in a dialog box. Inheritance object SharpInputBox Inherited Members object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Namespace: SharpDialogs Assembly: SharpDialogs.dll Syntax public static class SharpInputBox Methods | Edit this page View Source Show(string, string, string, int, int) Displays a prompt in a dialog box, waits for the user to input text or click a button, and then returns a string containing the contents of the text box. Declaration public static string Show(string prompt, string title = \"\", string defaultResponse = \"\", int xPos = -1, int yPos = -1) Parameters Type Name Description string prompt The prompt of the dialog. string title The title of the dialog. string defaultResponse The default reponse of the dialog. int xPos The x position of the dialog. int yPos The y position of the dialog. Returns Type Description string"
+  },
   "api/SharpDialogs.SharpProgressDialog.html": {
     "href": "api/SharpDialogs.SharpProgressDialog.html",
     "title": "Class SharpProgressDialog",
@@ -57,7 +62,7 @@
   "api/SharpDialogs.html": {
     "href": "api/SharpDialogs.html",
     "title": "Namespace SharpDialogs",
-    "summary": "Namespace SharpDialogs Classes SharpDialogFilter A files filter for the dialogs. SharpDialogHelpers Helper methods for the dialogs. SharpFileOpenDialog A file open dialog. SharpFileSaveDialog A file save dialog. SharpFolderBrowserDialog A folder browser dialog. SharpProgressDialog A progress dialog."
+    "summary": "Namespace SharpDialogs Classes SharpDialogFilter A files filter for the dialogs. SharpDialogHelpers Helper methods for the dialogs. SharpFileOpenDialog A file open dialog. SharpFileSaveDialog A file save dialog. SharpFolderBrowserDialog A folder browser dialog. SharpInputBox A prompt in a dialog box. SharpProgressDialog A progress dialog."
   },
   "api/index.html": {
     "href": "api/index.html",

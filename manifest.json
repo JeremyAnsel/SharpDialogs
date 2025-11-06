@@ -82,6 +82,20 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/SharpDialogs.SharpInputBox.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpDialogs.SharpInputBox.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SharpDialogs.SharpInputBox",
+      "Summary": "<p sourcefile=\"api/SharpDialogs.SharpInputBox.yml\" sourcestartlinenumber=\"1\">A prompt in a dialog box.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/SharpDialogs.SharpProgressDialog.yml",
       "output": {
         ".html": {
