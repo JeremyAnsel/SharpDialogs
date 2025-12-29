@@ -7,7 +7,7 @@
         mc:Ignorable="d"
         Title="About"
         SizeToContent="Height"
-        Width="300"
+        Width="320"
         ResizeMode="NoResize"
         WindowStartupLocation="CenterOwner"
         UseLayoutRounding="True"
