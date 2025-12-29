@@ -35,7 +35,7 @@
                 <TextBlock Text="{Binding AppProperties.Version, StringFormat='v{0}'}"
                            TextWrapping="Wrap"
                            HorizontalAlignment="Center" />
-                <TextBlock Text="{Binding AppProperties.ReleaseDate}"
+                <TextBlock Text="{Binding AppProperties.ReleaseDate, StringFormat='HH:mm dd-MM-yyyy'}"
                            TextWrapping="Wrap"
                            HorizontalAlignment="Center" />
             </StackPanel>
