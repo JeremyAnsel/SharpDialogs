@@ -6,7 +6,7 @@ namespace SharpWpfAboutBox;
 /// <summary>
 /// Contains the assembly properties.
 /// </summary>
-public class AppProperties
+public class SharpAppProperties
 {
     private Assembly? AppAssembly => Assembly.GetEntryAssembly();
 
@@ -49,4 +49,6 @@ public class AppProperties
     /// The icon.
     /// </summary>
     public ImageSource? Icon => IconExtractor.GetAppIcon(AppAssembly);
+
+    public DateTime? ReleaseDate => AssemblyHelpers.GetReleaseDate(AppAssembly);
 }

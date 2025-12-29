@@ -13,6 +13,7 @@ License         | [The MIT License (MIT)](https://github.com/JeremyAnsel/SharpDi
 Documentation   | http://jeremyansel.github.io/SharpDialogs
 Source code     | https://github.com/JeremyAnsel/SharpDialogs
 Nuget           | https://www.nuget.org/packages/SharpDialogs
+Nuget           | https://www.nuget.org/packages/SharpWpfAboutBox
 Build           | https://ci.appveyor.com/project/JeremyAnsel/sharpdialogs/branch/main
 
 # Usage
@@ -91,7 +92,7 @@ string text = SharpInputBox.Show("Enter a message", "Title", "Default response")
 
 ## `SharpAboutBox`
 
-To show a AboutBox dialog, use the `SharpWpfAboutBox` class.
+To show a AboutBox dialog, use the `SharpAboutBox` class.
 ```csharp
 using SharpWpfAboutBox;
 

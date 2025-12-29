@@ -20,7 +20,7 @@ public partial class SharpAboutBox : Window
     /// <summary>
     /// The properties of the assembly.
     /// </summary>
-    public AppProperties AppProperties => new();
+    public SharpAppProperties AppProperties => new();
 
     private void CloseButton_Click(object sender, RoutedEventArgs e)
     {

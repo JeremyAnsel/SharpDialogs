@@ -38,4 +38,16 @@ internal static class AssemblyHelpers
     {
         return assembly?.GetName()?.Version;
     }
+
+    public static DateTime? GetReleaseDate(Assembly? assembly)
+    {
+        if (assembly is null)
+        {
+            return null;
+        }
+
+        string location = assembly.Location;
+        DateTime date = System.IO.File.GetLastWriteTime(location);
+        return date;
+    }
 }

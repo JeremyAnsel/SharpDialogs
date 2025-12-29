@@ -35,6 +35,9 @@
                 <TextBlock Text="{Binding AppProperties.Version, StringFormat='v{0}'}"
                            TextWrapping="Wrap"
                            HorizontalAlignment="Center" />
+                <TextBlock Text="{Binding AppProperties.ReleaseDate}"
+                           TextWrapping="Wrap"
+                           HorizontalAlignment="Center" />
             </StackPanel>
         </DockPanel>
         <TextBlock Grid.Row="1"
@@ -43,6 +46,7 @@
         <DockPanel Grid.Row="2">
             <Button x:Name="closeButton"
                     DockPanel.Dock="Right"
+                    Margin="5"
                     IsDefault="True"
                     IsCancel="True"
                     Height="25"
