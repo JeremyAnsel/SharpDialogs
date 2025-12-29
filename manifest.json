@@ -193,6 +193,48 @@
       "Summary": null
     },
     {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpWpfAboutBox.AppProperties.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpWpfAboutBox.AppProperties.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SharpWpfAboutBox.AppProperties",
+      "Summary": "<p sourcefile=\"api/SharpWpfAboutBox.AppProperties.yml\" sourcestartlinenumber=\"1\">Contains the assembly properties.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpWpfAboutBox.SharpAboutBox.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpWpfAboutBox.SharpAboutBox.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SharpWpfAboutBox.SharpAboutBox",
+      "Summary": "<p sourcefile=\"api/SharpWpfAboutBox.SharpAboutBox.yml\" sourcestartlinenumber=\"1\">Logique d'interaction pour SharpAboutBox.xaml</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpWpfAboutBox.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpWpfAboutBox.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SharpWpfAboutBox",
+      "Summary": null
+    },
+    {
       "type": "Conceptual",
       "source_relative_path": "api/index.md",
       "output": {
