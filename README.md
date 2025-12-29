@@ -1,6 +1,7 @@
 # SharpDialogs
 
 SharpDialogs is a .Net library for win32 dialogs. Include FileOpenDialog, FileSaveDialog, FolderBrowserDialog, ProgressDialog.
+SharpWpfAboutBox is a .Net AboutBox dialog for WPF.
 
 [![Build status](https://ci.appveyor.com/api/projects/status/6bktd0k9pe762ren/branch/main?svg=true)](https://ci.appveyor.com/project/JeremyAnsel/sharpdialogs/branch/main)
 [![NuGet Version](https://img.shields.io/nuget/v/SharpDialogs)](https://www.nuget.org/packages/SharpDialogs)
@@ -86,4 +87,13 @@ To prompt a InputBox dialog, use the `SharpInputBox` static class.
 using SharpDialogs;
 
 string text = SharpInputBox.Show("Enter a message", "Title", "Default response");
+```
+
+## `SharpAboutBox`
+
+To show a AboutBox dialog, use the `SharpWpfAboutBox` class.
+```csharp
+using SharpWpfAboutBox;
+
+new SharpAboutBox(this).ShowDialog();
 ```

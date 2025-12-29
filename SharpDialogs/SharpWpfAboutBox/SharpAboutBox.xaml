@@ -1,0 +1,58 @@
+﻿<Window x:Class="SharpWpfAboutBox.SharpAboutBox"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:SharpWpfAboutBox"
+        mc:Ignorable="d"
+        Title="About"
+        SizeToContent="Height"
+        Width="300"
+        ResizeMode="NoResize"
+        WindowStartupLocation="CenterOwner"
+        UseLayoutRounding="True"
+        HorizontalAlignment="Center"
+        VerticalAlignment="Center"
+        DataContext="{Binding RelativeSource={RelativeSource Self}}">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="Auto" />
+        </Grid.RowDefinitions>
+        <DockPanel Grid.Row="0">
+            <Image DockPanel.Dock="Left"
+                   Source="{Binding AppProperties.Icon}"
+                   MaxWidth="48"
+                   MaxHeight="48"
+                   Stretch="Uniform"
+                   RenderOptions.BitmapScalingMode="Fant" />
+            <StackPanel VerticalAlignment="Center">
+                <TextBlock Text="{Binding AppProperties.Product}"
+                           TextWrapping="Wrap"
+                           FontWeight="Bold"
+                           HorizontalAlignment="Center" />
+                <TextBlock Text="{Binding AppProperties.Version, StringFormat='v{0}'}"
+                           TextWrapping="Wrap"
+                           HorizontalAlignment="Center" />
+            </StackPanel>
+        </DockPanel>
+        <TextBlock Grid.Row="1"
+                   Text="{Binding AppProperties.Description}"
+                   TextWrapping="Wrap" />
+        <DockPanel Grid.Row="2">
+            <Button x:Name="closeButton"
+                    DockPanel.Dock="Right"
+                    IsDefault="True"
+                    IsCancel="True"
+                    Height="25"
+                    Width="75"
+                    Content="Close"
+                    Click="CloseButton_Click" />
+            <TextBlock Text="{Binding AppProperties.Copyright}"
+                       TextWrapping="Wrap"
+                       FontWeight="DemiBold"
+                       HorizontalAlignment="Center" />
+        </DockPanel>
+    </Grid>
+</Window>

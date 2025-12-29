@@ -5,7 +5,8 @@
         {
           "files": [
             "SharpDialogs/**.csproj",
-            "SharpDialogs.Wpf/**.csproj"
+            "SharpDialogs.Wpf/**.csproj",
+            "SharpWpfAboutBox/**.csproj"
           ],
           "src": "../"
         }
