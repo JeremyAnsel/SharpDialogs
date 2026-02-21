@@ -59,4 +59,7 @@ internal static class NativeMethods
         [MarshalAs(UnmanagedType.LPWStr)] string pszSrc,
         uint cchMax,
         uint dwFlags);
+
+    [DllImport("kernel32.dll", EntryPoint = "GetConsoleWindow")]
+    public static extern IntPtr GetConsoleWindow();
 }
