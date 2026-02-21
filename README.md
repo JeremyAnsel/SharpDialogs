@@ -90,6 +90,17 @@ using SharpDialogs;
 string text = SharpInputBox.Show("Enter a message", "Title", "Default response");
 ```
 
+## `SharpTaskbarProgress`:
+
+To set the progress in the taskbar for the window.
+```csharp
+using SharpDialogs;
+
+SharpTaskbarProgress.SetState(hWndOwner, SharpTaskbarStates.Normal);
+SharpTaskbarProgress.SetValue(hWndOwner, progress, max);
+SharpTaskbarProgress.SetState(hWndOwner, SharpTaskbarStates.NoProgress);
+```
+
 ## `SharpAboutBox`
 
 To show a AboutBox dialog, use the `SharpAboutBox` class.
