@@ -419,6 +419,93 @@ references:
   isSpec: "True"
   fullName: SharpDialogs.SharpProgressDialog.SetProgress
   nameWithType: SharpProgressDialog.SetProgress
+- uid: SharpDialogs.SharpTaskbarProgress
+  name: SharpTaskbarProgress
+  href: api/SharpDialogs.SharpTaskbarProgress.html
+  commentId: T:SharpDialogs.SharpTaskbarProgress
+  fullName: SharpDialogs.SharpTaskbarProgress
+  nameWithType: SharpTaskbarProgress
+- uid: SharpDialogs.SharpTaskbarProgress.GetConsoleWindow
+  name: GetConsoleWindow()
+  href: api/SharpDialogs.SharpTaskbarProgress.html#SharpDialogs_SharpTaskbarProgress_GetConsoleWindow
+  commentId: M:SharpDialogs.SharpTaskbarProgress.GetConsoleWindow
+  fullName: SharpDialogs.SharpTaskbarProgress.GetConsoleWindow()
+  nameWithType: SharpTaskbarProgress.GetConsoleWindow()
+- uid: SharpDialogs.SharpTaskbarProgress.GetConsoleWindow*
+  name: GetConsoleWindow
+  href: api/SharpDialogs.SharpTaskbarProgress.html#SharpDialogs_SharpTaskbarProgress_GetConsoleWindow_
+  commentId: Overload:SharpDialogs.SharpTaskbarProgress.GetConsoleWindow
+  isSpec: "True"
+  fullName: SharpDialogs.SharpTaskbarProgress.GetConsoleWindow
+  nameWithType: SharpTaskbarProgress.GetConsoleWindow
+- uid: SharpDialogs.SharpTaskbarProgress.SetState(System.IntPtr,SharpDialogs.SharpTaskbarStates)
+  name: SetState(nint, SharpTaskbarStates)
+  href: api/SharpDialogs.SharpTaskbarProgress.html#SharpDialogs_SharpTaskbarProgress_SetState_System_IntPtr_SharpDialogs_SharpTaskbarStates_
+  commentId: M:SharpDialogs.SharpTaskbarProgress.SetState(System.IntPtr,SharpDialogs.SharpTaskbarStates)
+  name.vb: SetState(IntPtr, SharpTaskbarStates)
+  fullName: SharpDialogs.SharpTaskbarProgress.SetState(nint, SharpDialogs.SharpTaskbarStates)
+  fullName.vb: SharpDialogs.SharpTaskbarProgress.SetState(System.IntPtr, SharpDialogs.SharpTaskbarStates)
+  nameWithType: SharpTaskbarProgress.SetState(nint, SharpTaskbarStates)
+  nameWithType.vb: SharpTaskbarProgress.SetState(IntPtr, SharpTaskbarStates)
+- uid: SharpDialogs.SharpTaskbarProgress.SetState*
+  name: SetState
+  href: api/SharpDialogs.SharpTaskbarProgress.html#SharpDialogs_SharpTaskbarProgress_SetState_
+  commentId: Overload:SharpDialogs.SharpTaskbarProgress.SetState
+  isSpec: "True"
+  fullName: SharpDialogs.SharpTaskbarProgress.SetState
+  nameWithType: SharpTaskbarProgress.SetState
+- uid: SharpDialogs.SharpTaskbarProgress.SetValue(System.IntPtr,System.UInt64,System.UInt64)
+  name: SetValue(nint, ulong, ulong)
+  href: api/SharpDialogs.SharpTaskbarProgress.html#SharpDialogs_SharpTaskbarProgress_SetValue_System_IntPtr_System_UInt64_System_UInt64_
+  commentId: M:SharpDialogs.SharpTaskbarProgress.SetValue(System.IntPtr,System.UInt64,System.UInt64)
+  name.vb: SetValue(IntPtr, ULong, ULong)
+  fullName: SharpDialogs.SharpTaskbarProgress.SetValue(nint, ulong, ulong)
+  fullName.vb: SharpDialogs.SharpTaskbarProgress.SetValue(System.IntPtr, ULong, ULong)
+  nameWithType: SharpTaskbarProgress.SetValue(nint, ulong, ulong)
+  nameWithType.vb: SharpTaskbarProgress.SetValue(IntPtr, ULong, ULong)
+- uid: SharpDialogs.SharpTaskbarProgress.SetValue*
+  name: SetValue
+  href: api/SharpDialogs.SharpTaskbarProgress.html#SharpDialogs_SharpTaskbarProgress_SetValue_
+  commentId: Overload:SharpDialogs.SharpTaskbarProgress.SetValue
+  isSpec: "True"
+  fullName: SharpDialogs.SharpTaskbarProgress.SetValue
+  nameWithType: SharpTaskbarProgress.SetValue
+- uid: SharpDialogs.SharpTaskbarStates
+  name: SharpTaskbarStates
+  href: api/SharpDialogs.SharpTaskbarStates.html
+  commentId: T:SharpDialogs.SharpTaskbarStates
+  fullName: SharpDialogs.SharpTaskbarStates
+  nameWithType: SharpTaskbarStates
+- uid: SharpDialogs.SharpTaskbarStates.Error
+  name: Error
+  href: api/SharpDialogs.SharpTaskbarStates.html#SharpDialogs_SharpTaskbarStates_Error
+  commentId: F:SharpDialogs.SharpTaskbarStates.Error
+  fullName: SharpDialogs.SharpTaskbarStates.Error
+  nameWithType: SharpTaskbarStates.Error
+- uid: SharpDialogs.SharpTaskbarStates.Indeterminate
+  name: Indeterminate
+  href: api/SharpDialogs.SharpTaskbarStates.html#SharpDialogs_SharpTaskbarStates_Indeterminate
+  commentId: F:SharpDialogs.SharpTaskbarStates.Indeterminate
+  fullName: SharpDialogs.SharpTaskbarStates.Indeterminate
+  nameWithType: SharpTaskbarStates.Indeterminate
+- uid: SharpDialogs.SharpTaskbarStates.NoProgress
+  name: NoProgress
+  href: api/SharpDialogs.SharpTaskbarStates.html#SharpDialogs_SharpTaskbarStates_NoProgress
+  commentId: F:SharpDialogs.SharpTaskbarStates.NoProgress
+  fullName: SharpDialogs.SharpTaskbarStates.NoProgress
+  nameWithType: SharpTaskbarStates.NoProgress
+- uid: SharpDialogs.SharpTaskbarStates.Normal
+  name: Normal
+  href: api/SharpDialogs.SharpTaskbarStates.html#SharpDialogs_SharpTaskbarStates_Normal
+  commentId: F:SharpDialogs.SharpTaskbarStates.Normal
+  fullName: SharpDialogs.SharpTaskbarStates.Normal
+  nameWithType: SharpTaskbarStates.Normal
+- uid: SharpDialogs.SharpTaskbarStates.Paused
+  name: Paused
+  href: api/SharpDialogs.SharpTaskbarStates.html#SharpDialogs_SharpTaskbarStates_Paused
+  commentId: F:SharpDialogs.SharpTaskbarStates.Paused
+  fullName: SharpDialogs.SharpTaskbarStates.Paused
+  nameWithType: SharpTaskbarStates.Paused
 - uid: SharpDialogs.Wpf
   name: SharpDialogs.Wpf
   href: api/SharpDialogs.Wpf.html

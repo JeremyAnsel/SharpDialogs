@@ -110,6 +110,34 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/SharpDialogs.SharpTaskbarProgress.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpDialogs.SharpTaskbarProgress.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SharpDialogs.SharpTaskbarProgress",
+      "Summary": "<p sourcefile=\"api/SharpDialogs.SharpTaskbarProgress.yml\" sourcestartlinenumber=\"1\">Exposes methods that control the progress indicator of the taskbar.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpDialogs.SharpTaskbarStates.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpDialogs.SharpTaskbarStates.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SharpDialogs.SharpTaskbarStates",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/SharpDialogs.Wpf.SharpFileOpenDialogWpf.yml",
       "output": {
         ".html": {
