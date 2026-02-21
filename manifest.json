@@ -194,6 +194,20 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/SharpDialogs.Wpf.SharpTaskbarProgressWpf.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpDialogs.Wpf.SharpTaskbarProgressWpf.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SharpDialogs.Wpf.SharpTaskbarProgressWpf",
+      "Summary": "<p sourcefile=\"api/SharpDialogs.Wpf.SharpTaskbarProgressWpf.yml\" sourcestartlinenumber=\"1\">Exposes methods that control the progress indicator of the taskbar.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/SharpDialogs.Wpf.yml",
       "output": {
         ".html": {

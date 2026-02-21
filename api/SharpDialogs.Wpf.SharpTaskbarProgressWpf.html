@@ -5,11 +5,11 @@
   <head>
     <meta charset="utf-8">
       <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-      <title>Class SharpProgressDialogWpf </title>
+      <title>Class SharpTaskbarProgressWpf </title>
       <meta name="viewport" content="width=device-width">
-      <meta name="title" content="Class SharpProgressDialogWpf ">
+      <meta name="title" content="Class SharpTaskbarProgressWpf ">
     
-    <meta name="description" content="A progress dialog for WPF.">
+    <meta name="description" content="Exposes methods that control the progress indicator of the taskbar.">
       <link rel="shortcut icon" href="../favicon.ico">
       <link rel="stylesheet" href="../styles/docfx.vendor.min.css">
       <link rel="stylesheet" href="../styles/docfx.css">
@@ -138,11 +138,11 @@
                           <li class="">
                             <a href="SharpDialogs.Wpf.SharpFolderBrowserDialogWpf.html" title="SharpFolderBrowserDialogWpf" class="">SharpFolderBrowserDialogWpf</a>
                           </li>
-                          <li class="active">
-                            <a href="SharpDialogs.Wpf.SharpProgressDialogWpf.html" title="SharpProgressDialogWpf" class="active">SharpProgressDialogWpf</a>
-                          </li>
                           <li class="">
-                            <a href="SharpDialogs.Wpf.SharpTaskbarProgressWpf.html" title="SharpTaskbarProgressWpf" class="">SharpTaskbarProgressWpf</a>
+                            <a href="SharpDialogs.Wpf.SharpProgressDialogWpf.html" title="SharpProgressDialogWpf" class="">SharpProgressDialogWpf</a>
+                          </li>
+                          <li class="active">
+                            <a href="SharpDialogs.Wpf.SharpTaskbarProgressWpf.html" title="SharpTaskbarProgressWpf" class="active">SharpTaskbarProgressWpf</a>
                           </li>
                         </ul>
                     </li>
@@ -167,50 +167,21 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="SharpDialogs.Wpf.SharpProgressDialogWpf">
+            <article class="content wrap" id="_content" data-uid="SharpDialogs.Wpf.SharpTaskbarProgressWpf">
 
 
 
-  <h1 id="SharpDialogs_Wpf_SharpProgressDialogWpf" data-uid="SharpDialogs.Wpf.SharpProgressDialogWpf" class="text-break">Class SharpProgressDialogWpf</h1>
-  <div class="markdown level0 summary"><p>A progress dialog for WPF.</p>
+  <h1 id="SharpDialogs_Wpf_SharpTaskbarProgressWpf" data-uid="SharpDialogs.Wpf.SharpTaskbarProgressWpf" class="text-break">Class SharpTaskbarProgressWpf</h1>
+  <div class="markdown level0 summary"><p>Exposes methods that control the progress indicator of the taskbar.</p>
 </div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
     <div class="level0"><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
-    <div class="level1"><a class="xref" href="SharpDialogs.SharpProgressDialog.html">SharpProgressDialog</a></div>
-    <div class="level2"><span class="xref">SharpProgressDialogWpf</span></div>
-  </div>
-  <div class="implements">
-    <h5>Implements</h5>
-    <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.idisposable">IDisposable</a></div>
+    <div class="level1"><span class="xref">SharpTaskbarProgressWpf</span></div>
   </div>
   <div class="inheritedMembers">
     <h5>Inherited Members</h5>
-    <div>
-      <a class="xref" href="SharpDialogs.SharpProgressDialog.html#SharpDialogs_SharpProgressDialog_Dispose">SharpProgressDialog.Dispose()</a>
-    </div>
-    <div>
-      <a class="xref" href="SharpDialogs.SharpProgressDialog.html#SharpDialogs_SharpProgressDialog_HasUserCancelled">SharpProgressDialog.HasUserCancelled()</a>
-    </div>
-    <div>
-      <a class="xref" href="SharpDialogs.SharpProgressDialog.html#SharpDialogs_SharpProgressDialog_SetProgress_System_UInt64_System_UInt64_">SharpProgressDialog.SetProgress(ulong, ulong)</a>
-    </div>
-    <div>
-      <a class="xref" href="SharpDialogs.SharpProgressDialog.html#SharpDialogs_SharpProgressDialog_SetLine1_System_String_System_Boolean_">SharpProgressDialog.SetLine1(string, bool)</a>
-    </div>
-    <div>
-      <a class="xref" href="SharpDialogs.SharpProgressDialog.html#SharpDialogs_SharpProgressDialog_SetLine2_System_String_System_Boolean_">SharpProgressDialog.SetLine2(string, bool)</a>
-    </div>
-    <div>
-      <a class="xref" href="SharpDialogs.SharpProgressDialog.html#SharpDialogs_SharpProgressDialog_ResetTimer">SharpProgressDialog.ResetTimer()</a>
-    </div>
-    <div>
-      <a class="xref" href="SharpDialogs.SharpProgressDialog.html#SharpDialogs_SharpProgressDialog_PauseTimer">SharpProgressDialog.PauseTimer()</a>
-    </div>
-    <div>
-      <a class="xref" href="SharpDialogs.SharpProgressDialog.html#SharpDialogs_SharpProgressDialog_ResumeTimer">SharpProgressDialog.ResumeTimer()</a>
-    </div>
     <div>
       <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)">object.Equals(object)</a>
     </div>
@@ -235,27 +206,27 @@
   </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="SharpDialogs.html">SharpDialogs</a>.<a class="xref" href="SharpDialogs.Wpf.html">Wpf</a></h6>
   <h6><strong>Assembly</strong>: SharpDialogs.Wpf.dll</h6>
-  <h5 id="SharpDialogs_Wpf_SharpProgressDialogWpf_syntax">Syntax</h5>
+  <h5 id="SharpDialogs_Wpf_SharpTaskbarProgressWpf_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class SharpProgressDialogWpf : SharpProgressDialog, IDisposable</code></pre>
+    <pre><code class="lang-csharp hljs">public static class SharpTaskbarProgressWpf</code></pre>
   </div>
-  <h3 id="constructors">Constructors
+  <h3 id="methods">Methods
 </h3>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/JeremyAnsel/SharpDialogs/new/main/apiSpec/new?filename=SharpDialogs_Wpf_SharpProgressDialogWpf__ctor_System_Windows_Window_System_String_System_String_System_Boolean_System_Boolean_.md&amp;value=---%0Auid%3A%20SharpDialogs.Wpf.SharpProgressDialogWpf.%23ctor(System.Windows.Window%2CSystem.String%2CSystem.String%2CSystem.Boolean%2CSystem.Boolean)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+    <a href="https://github.com/JeremyAnsel/SharpDialogs/new/main/apiSpec/new?filename=SharpDialogs_Wpf_SharpTaskbarProgressWpf_SetState_System_Windows_Window_SharpDialogs_SharpTaskbarStates_.md&amp;value=---%0Auid%3A%20SharpDialogs.Wpf.SharpTaskbarProgressWpf.SetState(System.Windows.Window%2CSharpDialogs.SharpTaskbarStates)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/JeremyAnsel/SharpDialogs/blob/main/SharpDialogs/SharpDialogs.Wpf/SharpProgressDialogWpf.cs/#L18">View Source</a>
+    <a href="https://github.com/JeremyAnsel/SharpDialogs/blob/main/SharpDialogs/SharpDialogs.Wpf/SharpTaskbarProgressWpf.cs/#L15">View Source</a>
   </span>
-  <a id="SharpDialogs_Wpf_SharpProgressDialogWpf__ctor_" data-uid="SharpDialogs.Wpf.SharpProgressDialogWpf.#ctor*"></a>
-  <h4 id="SharpDialogs_Wpf_SharpProgressDialogWpf__ctor_System_Windows_Window_System_String_System_String_System_Boolean_System_Boolean_" data-uid="SharpDialogs.Wpf.SharpProgressDialogWpf.#ctor(System.Windows.Window,System.String,System.String,System.Boolean,System.Boolean)">SharpProgressDialogWpf(Window?, string?, string?, bool, bool)</h4>
-  <div class="markdown level1 summary"><p>Creates a progress dialog.</p>
+  <a id="SharpDialogs_Wpf_SharpTaskbarProgressWpf_SetState_" data-uid="SharpDialogs.Wpf.SharpTaskbarProgressWpf.SetState*"></a>
+  <h4 id="SharpDialogs_Wpf_SharpTaskbarProgressWpf_SetState_System_Windows_Window_SharpDialogs_SharpTaskbarStates_" data-uid="SharpDialogs.Wpf.SharpTaskbarProgressWpf.SetState(System.Windows.Window,SharpDialogs.SharpTaskbarStates)">SetState(Window?, SharpTaskbarStates)</h4>
+  <div class="markdown level1 summary"><p>Sets the type and state of the progress indicator displayed on a taskbar button.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public SharpProgressDialogWpf(Window? owner, string? title, string? cancelMessage = null, bool allowCancel = true, bool showTime = true)</code></pre>
+    <pre><code class="lang-csharp hljs">public static void SetState(Window? owner, SharpTaskbarStates state)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-condensed">
@@ -270,39 +241,63 @@
       <tr>
         <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.window">Window</a></td>
         <td><span class="parametername">owner</span></td>
-        <td><p>The owner window.</p>
+        <td><p>The window in which the progress of an operation is being shown. This window's associated taskbar button will display the progress bar.</p>
 </td>
       </tr>
       <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
-        <td><span class="parametername">title</span></td>
-        <td><p>The title of the dialog.</p>
-</td>
-      </tr>
-      <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
-        <td><span class="parametername">cancelMessage</span></td>
-        <td><p>The cancel message of the dialog.</p>
-</td>
-      </tr>
-      <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></td>
-        <td><span class="parametername">allowCancel</span></td>
-        <td><p>Shows a cancel button.</p>
-</td>
-      </tr>
-      <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></td>
-        <td><span class="parametername">showTime</span></td>
-        <td><p>Shows the progress time.</p>
+        <td><a class="xref" href="SharpDialogs.SharpTaskbarStates.html">SharpTaskbarStates</a></td>
+        <td><span class="parametername">state</span></td>
+        <td><p>Control the current state of the progress button.</p>
 </td>
       </tr>
     </tbody>
   </table>
-  <h3 id="implements">Implements</h3>
-  <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.idisposable">IDisposable</a>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/JeremyAnsel/SharpDialogs/new/main/apiSpec/new?filename=SharpDialogs_Wpf_SharpTaskbarProgressWpf_SetValue_System_Windows_Window_System_UInt64_System_UInt64_.md&amp;value=---%0Auid%3A%20SharpDialogs.Wpf.SharpTaskbarProgressWpf.SetValue(System.Windows.Window%2CSystem.UInt64%2CSystem.UInt64)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/JeremyAnsel/SharpDialogs/blob/main/SharpDialogs/SharpDialogs.Wpf/SharpTaskbarProgressWpf.cs/#L27">View Source</a>
+  </span>
+  <a id="SharpDialogs_Wpf_SharpTaskbarProgressWpf_SetValue_" data-uid="SharpDialogs.Wpf.SharpTaskbarProgressWpf.SetValue*"></a>
+  <h4 id="SharpDialogs_Wpf_SharpTaskbarProgressWpf_SetValue_System_Windows_Window_System_UInt64_System_UInt64_" data-uid="SharpDialogs.Wpf.SharpTaskbarProgressWpf.SetValue(System.Windows.Window,System.UInt64,System.UInt64)">SetValue(Window?, ulong, ulong)</h4>
+  <div class="markdown level1 summary"><p>Displays or updates a progress bar hosted in a taskbar button to show the specific percentage completed of the full operation.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void SetValue(Window? owner, ulong progress, ulong max)</code></pre>
   </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.window">Window</a></td>
+        <td><span class="parametername">owner</span></td>
+        <td><p>The window whose associated taskbar button is being used as a progress indicator.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint64">ulong</a></td>
+        <td><span class="parametername">progress</span></td>
+        <td><p>A value that indicates the proportion of the operation that has been completed at the time the method is called.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint64">ulong</a></td>
+        <td><span class="parametername">max</span></td>
+        <td><p>A value that specifies the value ullCompleted will have when the operation is complete.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
 
 </article>
           </div>
@@ -312,10 +307,10 @@
               <div class="contribution">
                 <ul class="nav">
                   <li>
-                    <a href="https://github.com/JeremyAnsel/SharpDialogs/new/main/apiSpec/new?filename=SharpDialogs_Wpf_SharpProgressDialogWpf.md&amp;value=---%0Auid%3A%20SharpDialogs.Wpf.SharpProgressDialogWpf%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Edit this page</a>
+                    <a href="https://github.com/JeremyAnsel/SharpDialogs/new/main/apiSpec/new?filename=SharpDialogs_Wpf_SharpTaskbarProgressWpf.md&amp;value=---%0Auid%3A%20SharpDialogs.Wpf.SharpTaskbarProgressWpf%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Edit this page</a>
                   </li>
                   <li>
-                    <a href="https://github.com/JeremyAnsel/SharpDialogs/blob/main/SharpDialogs/SharpDialogs.Wpf/SharpProgressDialogWpf.cs/#L8" class="contribution-link">View Source</a>
+                    <a href="https://github.com/JeremyAnsel/SharpDialogs/blob/main/SharpDialogs/SharpDialogs.Wpf/SharpTaskbarProgressWpf.cs/#L8" class="contribution-link">View Source</a>
                   </li>
                 </ul>
               </div>

@@ -662,6 +662,44 @@ references:
   fullName.vb: SharpDialogs.Wpf.SharpProgressDialogWpf.New
   nameWithType: SharpProgressDialogWpf.SharpProgressDialogWpf
   nameWithType.vb: SharpProgressDialogWpf.New
+- uid: SharpDialogs.Wpf.SharpTaskbarProgressWpf
+  name: SharpTaskbarProgressWpf
+  href: api/SharpDialogs.Wpf.SharpTaskbarProgressWpf.html
+  commentId: T:SharpDialogs.Wpf.SharpTaskbarProgressWpf
+  fullName: SharpDialogs.Wpf.SharpTaskbarProgressWpf
+  nameWithType: SharpTaskbarProgressWpf
+- uid: SharpDialogs.Wpf.SharpTaskbarProgressWpf.SetState(System.Windows.Window,SharpDialogs.SharpTaskbarStates)
+  name: SetState(Window?, SharpTaskbarStates)
+  href: api/SharpDialogs.Wpf.SharpTaskbarProgressWpf.html#SharpDialogs_Wpf_SharpTaskbarProgressWpf_SetState_System_Windows_Window_SharpDialogs_SharpTaskbarStates_
+  commentId: M:SharpDialogs.Wpf.SharpTaskbarProgressWpf.SetState(System.Windows.Window,SharpDialogs.SharpTaskbarStates)
+  name.vb: SetState(Window, SharpTaskbarStates)
+  fullName: SharpDialogs.Wpf.SharpTaskbarProgressWpf.SetState(System.Windows.Window?, SharpDialogs.SharpTaskbarStates)
+  fullName.vb: SharpDialogs.Wpf.SharpTaskbarProgressWpf.SetState(System.Windows.Window, SharpDialogs.SharpTaskbarStates)
+  nameWithType: SharpTaskbarProgressWpf.SetState(Window?, SharpTaskbarStates)
+  nameWithType.vb: SharpTaskbarProgressWpf.SetState(Window, SharpTaskbarStates)
+- uid: SharpDialogs.Wpf.SharpTaskbarProgressWpf.SetState*
+  name: SetState
+  href: api/SharpDialogs.Wpf.SharpTaskbarProgressWpf.html#SharpDialogs_Wpf_SharpTaskbarProgressWpf_SetState_
+  commentId: Overload:SharpDialogs.Wpf.SharpTaskbarProgressWpf.SetState
+  isSpec: "True"
+  fullName: SharpDialogs.Wpf.SharpTaskbarProgressWpf.SetState
+  nameWithType: SharpTaskbarProgressWpf.SetState
+- uid: SharpDialogs.Wpf.SharpTaskbarProgressWpf.SetValue(System.Windows.Window,System.UInt64,System.UInt64)
+  name: SetValue(Window?, ulong, ulong)
+  href: api/SharpDialogs.Wpf.SharpTaskbarProgressWpf.html#SharpDialogs_Wpf_SharpTaskbarProgressWpf_SetValue_System_Windows_Window_System_UInt64_System_UInt64_
+  commentId: M:SharpDialogs.Wpf.SharpTaskbarProgressWpf.SetValue(System.Windows.Window,System.UInt64,System.UInt64)
+  name.vb: SetValue(Window, ULong, ULong)
+  fullName: SharpDialogs.Wpf.SharpTaskbarProgressWpf.SetValue(System.Windows.Window?, ulong, ulong)
+  fullName.vb: SharpDialogs.Wpf.SharpTaskbarProgressWpf.SetValue(System.Windows.Window, ULong, ULong)
+  nameWithType: SharpTaskbarProgressWpf.SetValue(Window?, ulong, ulong)
+  nameWithType.vb: SharpTaskbarProgressWpf.SetValue(Window, ULong, ULong)
+- uid: SharpDialogs.Wpf.SharpTaskbarProgressWpf.SetValue*
+  name: SetValue
+  href: api/SharpDialogs.Wpf.SharpTaskbarProgressWpf.html#SharpDialogs_Wpf_SharpTaskbarProgressWpf_SetValue_
+  commentId: Overload:SharpDialogs.Wpf.SharpTaskbarProgressWpf.SetValue
+  isSpec: "True"
+  fullName: SharpDialogs.Wpf.SharpTaskbarProgressWpf.SetValue
+  nameWithType: SharpTaskbarProgressWpf.SetValue
 - uid: SharpWpfAboutBox
   name: SharpWpfAboutBox
   href: api/SharpWpfAboutBox.html
